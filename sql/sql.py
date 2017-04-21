@@ -16,14 +16,14 @@ class SQL(object):
         self.cursor.execute(sql_command, (artist_id, artist_name, artist_info))
         self.connection.commit()
 
-    def insert_music(self, music_id, music_name, music_lyric, album_id, comment_num):
+    def insert_music(self, music_id, music_name, album_id, music_lyric = 'None', comment_number = 0):
         sql_command = "INSERT INTO musics VALUES (?, ?, ?, ?, ?)"
-        self.cursor.execute(sql_command, (music_id, music_name, music_lyric, album_id, comment_num))
+        self.cursor.execute(sql_command, (music_id, music_name, album_id, music_lyric, comment_number))
         self.connection.commit()
 
-    def insert_album(self, album_id, album_name, artist_id):
-        sql_command = "INSERT INTO albums VALUES (?, ?, ?)"
-        self.cursor.execute(sql_command, (album_id, album_name, artist_id))
+    def insert_album(self, album_id, album_name, artist_id, music_number=10):
+        sql_command = "INSERT INTO albums VALUES (?, ?, ?, ?)"
+        self.cursor.execute(sql_command, (album_id, album_name, artist_id, music_number))
         self.connection.commit()
 
     def insert_comments(self, music_id, comment_content, details):
@@ -32,7 +32,7 @@ class SQL(object):
         self.connection.commit()
 
     def get_all_artists(self):
-        sql_command = "SELECT ARTIST_ID FROM artists ORDER BY ARTIST_ID"
+        sql_command = "SELECT ID FROM artists ORDER BY ID"
         self.cursor.execute(sql_command,())
         return self.cursor.fetchall()
 
@@ -45,6 +45,11 @@ class SQL(object):
         sql_command = "SELECT ALBUM_ID FROM albums ORDER BY ALBUM_ID"
         self.cursor.execute(sql_command,())
         return self.cursor.fetchall()
+
+    def update_album(self, album_id, music_number):
+        sql_command = "UPDATE albums SET MUSIC_NUMBER = ? WHERE ALBUM_ID = ?"
+        self.cursor.execute(sql_command, (music_number, album_id))
+        self.connection.commit()
 
     def close(self):
         self.connection.close()

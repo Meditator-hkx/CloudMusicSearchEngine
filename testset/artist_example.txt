@@ -1,0 +1,690 @@
+<body>
+<div class="m-top" data-module="discover" data-sub="other" id="g_top"> </div>
+<div class="m-subnav" id="g_nav"> </div>
+<script>
+try{
+top.matchNav("discover", "other");
+}catch(e){
+}
+</script>
+<div class="g-bd4 f-cb">
+<div class="g-mn4">
+<div class="g-mn4c">
+<div class="g-wrap6">
+<div class="n-artist f-cb">
+<div class="btm">
+<h2 class="sname f-thide sname-max" data-rid="1876" id="artist-name" title="阿杜 - A Do;杜成义">阿杜</h2>
+<h3 class="salias f-thide" id="artist-alias" title="阿杜 - A Do;杜成义">
+A Do;杜成义
+</h3>
+</div>
+<img src="http://p4.music.126.net/zxkxs0TfVdDe1BVUnZzMog==/134140418605326.jpg?param=640y300">
+<div class="mask f-alpha"></div>
+<a class="btn-rz f-tid" href="/user/home?id=714040" id="artist-home">Ta的个人主页</a>
+<a class="btnfav f-tid" href="javascript:void(0)" id="artist-sub">收藏</a>
+</img></div>
+<ul class="m-tabs f-cb" id="m_tabs">
+<li class="fst"><a class="z-slt" href="/artist?id=1876"><em>热门50单曲</em></a></li>
+<li><a href="/artist/album?id=1876"><em>所有专辑</em></a></li>
+<li><a href="/artist/mv?id=1876"><em>相关MV</em></a></li>
+<li><a href="/artist/desc?id=1876"><em>歌手介绍</em></a></li>
+</ul>
+<div class="n-top50" id="artist-top50">
+<div class="m-info">
+<div class="btns f-cb" data-rid="1876" data-type="2" id="content-operation">
+<a class="u-btn2 u-btn2-2 u-btni-addply f-fl" data-res-action="play" data-res-id="1876" data-res-type="2" hidefocus="true" href="javascript:;" title="播放"><i><em class="ply"></em>播放</i></a>
+<a class="u-btni u-btni-add" data-res-action="addto" data-res-id="1876" data-res-type="2" hidefocus="true" href="javascript:;" title="添加到播放列表"></a>
+<a class="u-btni u-btni-fav" data-res-action="fav" data-res-id="1876" data-res-name="阿杜 热门50单曲" data-res-type="2" hidefocus="true" href="javascript:;"><i>收藏热门50</i></a>
+</div>
+</div>
+<div class="f-cb">
+<div data-key="track_artist_top-1876" data-simple="0" id="song-list-pre-cache">
+<div class="u-load s-fc4"><i class="icn"></i> 加载中...</div>
+<ul class="f-hide"><li><a href="/song?id=60263">他一定很爱你</a></li><li><a href="/song?id=60274">撕夜</a></li><li><a href="/song?id=60271">Andy</a></li><li><a href="/song?id=60280">离别</a></li><li><a href="/song?id=69973">北京祝福你</a></li><li><a href="/song?id=60238">坚持到底</a></li><li><a href="/song?id=60265">天黑</a></li><li><a href="/song?id=108362">感动每一刻</a></li><li><a href="/song?id=60012">差一点</a></li><li><a href="/song?id=60267">天天看到你</a></li><li><a href="/song?id=60216">小说</a></li><li><a href="/song?id=60251">你就像个小孩</a></li><li><a href="/song?id=406347184">听见牛在哭</a></li><li><a href="/song?id=60269">一个人住</a></li><li><a href="/song?id=249127">梦中的情话</a></li><li><a href="/song?id=27571846">相爱的泪水</a></li><li><a href="/song?id=60243">放手</a></li><li><a href="/song?id=5239683">梦想的翅膀</a></li><li><a href="/song?id=60210">下雨的时候会想你</a></li><li><a href="/song?id=60208">哈啰</a></li><li><a href="/song?id=60276">无法阻挡</a></li><li><a href="/song?id=59912">没什么好怕</a></li><li><a href="/song?id=60245">天蝎蝴蝶</a></li><li><a href="/song?id=5264305">爱你比我重要</a></li><li><a href="/song?id=60282">Right Here Waiting</a></li><li><a href="/song?id=59875">Valentine's Day</a></li><li><a href="/song?id=60214">退让</a></li><li><a href="/song?id=26375076">电台情歌 / 水晶 / 爱情 / 如果爱 / 我愿意</a></li><li><a href="/song?id=60254">下次如果离开你</a></li><li><a href="/song?id=5252709">唱响世界</a></li><li><a href="/song?id=60258">相容</a></li><li><a href="/song?id=60278">你很好</a></li><li><a href="/song?id=60260">雨衣</a></li><li><a href="/song?id=60032">不让你走</a></li><li><a href="/song?id=5258156">聆听世界</a></li><li><a href="/song?id=28232260">温暖</a></li><li><a href="/song?id=59914">人狼</a></li><li><a href="/song?id=60103">I...Do</a></li><li><a href="/song?id=60108">下雪</a></li><li><a href="/song?id=59940">差一点 (私藏摇滚版)</a></li><li><a href="/song?id=59877">再唱一首</a></li><li><a href="/song?id=60241">惩罚</a></li><li><a href="/song?id=435592361">好想告诉你</a></li><li><a href="/song?id=59960">一首情歌</a></li><li><a href="/song?id=406346211">祝你快乐</a></li><li><a href="/song?id=406346208">我在你的爱情之外</a></li><li><a href="/song?id=59870">几年了</a></li><li><a href="/song?id=406346210">撒野</a></li><li><a href="/song?id=406346209">天涯海角</a></li><li><a href="/song?id=406347192">爱上谁</a></li></ul>
+<textarea style="display:none;">[{"status":1,"mvid":5443707,"transNames":null,"commentThreadId":"R_SO_4_60263","fee":0,"privilege":{"id":60263,"fee":0,"payed":0,"st":0,"pl":320000,"dl":320000,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":999000,"fl":320000,"toast":false,"flag":0},"djid":0,"album":{"id":5863,"name":"天黑","picUrl":"http://p4.music.126.net/C71BhIuR2l6pg7Dhz2MFcg==/76965813944980.jpg","pic_str":"76965813944980","pic":76965813944980},"artists":[{"id":1876,"name":"阿杜","alia":["A Do","杜成义"]}],"alias":[],"score":100.0,"copyrightId":14026,"no":1,"ftype":0,"type":0,"duration":214773,"name":"他一定很爱你","id":60263},{"status":1,"mvid":5364581,"transNames":null,"commentThreadId":"R_SO_4_60274","fee":0,"privilege":{"id":60274,"fee":0,"payed":0,"st":0,"pl":320000,"dl":320000,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":999000,"fl":320000,"toast":false,"flag":0},"djid":0,"album":{"id":5863,"name":"天黑","picUrl":"http://p3.music.126.net/C71BhIuR2l6pg7Dhz2MFcg==/76965813944980.jpg","pic_str":"76965813944980","pic":76965813944980},"artists":[{"id":1876,"name":"阿杜","alia":["A Do","杜成义"]}],"alias":[],"score":100.0,"copyrightId":14026,"no":6,"ftype":0,"type":0,"duration":278854,"name":"撕夜","id":60274},{"status":1,"mvid":59125,"transNames":null,"commentThreadId":"R_SO_4_60271","fee":0,"privilege":{"id":60271,"fee":0,"payed":0,"st":0,"pl":320000,"dl":320000,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":999000,"fl":320000,"toast":false,"flag":0},"djid":0,"album":{"id":5863,"name":"天黑","picUrl":"http://p4.music.126.net/C71BhIuR2l6pg7Dhz2MFcg==/76965813944980.jpg","pic_str":"76965813944980","pic":76965813944980},"artists":[{"id":1876,"name":"阿杜","alia":["A Do","杜成义"]}],"alias":[],"score":100.0,"copyrightId":14026,"no":5,"ftype":0,"type":0,"duration":315093,"name":"Andy","id":60271},{"status":1,"mvid":5365288,"transNames":null,"commentThreadId":"R_SO_4_60280","fee":0,"privilege":{"id":60280,"fee":0,"payed":0,"st":0,"pl":320000,"dl":320000,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":999000,"fl":320000,"toast":false,"flag":0},"djid":0,"album":{"id":5863,"name":"天黑","picUrl":"http://p3.music.126.net/C71BhIuR2l6pg7Dhz2MFcg==/76965813944980.jpg","pic_str":"76965813944980","pic":76965813944980},"artists":[{"id":1876,"name":"阿杜","alia":["A Do","杜成义"]}],"alias":[],"score":100.0,"copyrightId":14026,"no":9,"ftype":0,"type":0,"duration":230426,"name":"离别","id":60280},{"status":1,"mvid":5343728,"transNames":null,"commentThreadId":"R_SO_4_69973","fee":0,"privilege":{"id":69973,"fee":0,"payed":0,"st":0,"pl":320000,"dl":320000,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":192000,"fl":320000,"toast":false,"flag":0},"djid":0,"album":{"id":6802,"name":"北京祝福你","picUrl":"http://p4.music.126.net/vYEIbgHpSzOYqGJ8UC-D0Q==/2440915813685164.jpg","pic_str":"2440915813685164","pic":2440915813685164},"artists":[{"id":2153,"name":"常石磊"},{"id":1876,"name":"阿杜","alia":["A Do","杜成义"]},{"id":7227,"name":"蔡卓妍","alia":["阿Sa","Charlene"]},{"id":2116,"name":"陈奕迅","alia":["Eason Chan"]},{"id":2118,"name":"成龙"},{"id":7235,"name":"陈慧琳","alia":["Kelly Chen"]},{"id":8327,"name":"李宇春","alia":["Chris Lee"]},{"id":3691,"name":"刘德华","alia":["Andy Lau"]},{"id":8926,"name":"莫文蔚","alia":["Karen Mok"]},{"id":4941,"name":"孙楠"},{"id":4895,"name":"任贤齐"},{"id":5768,"name":"萧敬腾","alia":["Jam Hsiao"]},{"id":5773,"name":"谢霆锋"},{"id":6075,"name":"庾澄庆","alia":["哈林","Harlem Yu"]},{"id":6456,"name":"周华健","alia":["Emil Chau"]},{"id":6472,"name":"张杰","alia":["Jason Zhang"]},{"id":10561,"name":"张靓颖","alia":["Jane Zhang"]},{"id":196134,"name":"章子怡"},{"id":10565,"name":"赵薇"},{"id":10571,"name":"郑秀文","alia":["Sammi Cheng"]},{"id":6473,"name":"郑中基"},{"id":10558,"name":"周笔畅"},{"id":6652,"name":"周传雄","alia":["小刚"]},{"id":6454,"name":"张信哲","alia":["阿哲","Jeff Chang"]},{"id":10367,"name":"杨幂"},{"id":8338,"name":"刘亦菲"},{"id":8635,"name":"林志玲"},{"id":3273,"name":"胡夏"},{"id":3066,"name":"胡彦斌"}],"alias":[],"score":100.0,"copyrightId":0,"no":1,"ftype":0,"type":0,"duration":480705,"name":"北京祝福你","id":69973},{"status":1,"mvid":5364595,"transNames":null,"commentThreadId":"R_SO_4_60238","fee":0,"privilege":{"id":60238,"fee":0,"payed":0,"st":0,"pl":320000,"dl":320000,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":320000,"fl":320000,"toast":false,"flag":0},"djid":0,"album":{"id":5858,"name":"坚持到底","picUrl":"http://p3.music.126.net/zaNvHNr6z_LH4XPTE8ZT-A==/40681930239730.jpg","pic_str":"40681930239730","pic":40681930239730},"artists":[{"id":1876,"name":"阿杜","alia":["A Do","杜成义"]}],"alias":[],"score":100.0,"copyrightId":14026,"no":1,"ftype":0,"type":0,"duration":249234,"name":"坚持到底","id":60238},{"status":1,"mvid":5393432,"transNames":null,"commentThreadId":"R_SO_4_60265","fee":0,"privilege":{"id":60265,"fee":0,"payed":0,"st":0,"pl":320000,"dl":320000,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":999000,"fl":320000,"toast":false,"flag":0},"djid":0,"album":{"id":5863,"name":"天黑","picUrl":"http://p3.music.126.net/C71BhIuR2l6pg7Dhz2MFcg==/76965813944980.jpg","pic_str":"76965813944980","pic":76965813944980},"artists":[{"id":1876,"name":"阿杜","alia":["A Do","杜成义"]}],"alias":[],"score":100.0,"copyrightId":14026,"no":2,"ftype":0,"type":0,"duration":262654,"name":"天黑","id":60265},{"status":1,"mvid":5326536,"transNames":null,"commentThreadId":"R_SO_4_108362","fee":0,"privilege":{"id":108362,"fee":0,"payed":0,"st":0,"pl":320000,"dl":320000,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":320000,"fl":320000,"toast":false,"flag":0},"djid":0,"album":{"id":10763,"name":"感动每一刻","picUrl":"http://p4.music.126.net/15MFtHMGB32hzTyJWJGTow==/62672162795571.jpg","pic_str":"62672162795571","pic":62672162795571,"alia":["2010上海世博会新加坡馆主题曲"]},"artists":[{"id":3684,"name":"林俊杰","alia":["JJ"]},{"id":9272,"name":"孙燕姿","alia":["Stefanie Sun"]},{"id":7214,"name":"蔡健雅","alia":["Tanya Chua"]},{"id":1876,"name":"阿杜","alia":["A Do","杜成义"]}],"alias":[],"score":100.0,"copyrightId":14026,"no":1,"ftype":0,"type":0,"duration":275252,"name":"感动每一刻","id":108362},{"status":1,"mvid":5393434,"transNames":null,"commentThreadId":"R_SO_4_60012","fee":0,"privilege":{"id":60012,"fee":0,"payed":0,"st":0,"pl":320000,"dl":320000,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":320000,"fl":320000,"toast":false,"flag":0},"djid":0,"album":{"id":5835,"name":"撒野","picUrl":"http://p4.music.126.net/DErD3so50BOu3SF_EFiR7g==/60473139540016.jpg","pic_str":"60473139540016","pic":60473139540016},"artists":[{"id":1876,"name":"阿杜","alia":["A Do","杜成义"]}],"alias":[],"score":100.0,"copyrightId":14026,"no":2,"ftype":0,"type":0,"duration":252813,"name":"差一点","id":60012},{"status":1,"mvid":5393433,"transNames":null,"commentThreadId":"R_SO_4_60267","fee":0,"privilege":{"id":60267,"fee":0,"payed":0,"st":0,"pl":320000,"dl":320000,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":999000,"fl":320000,"toast":false,"flag":0},"djid":0,"album":{"id":5863,"name":"天黑","picUrl":"http://p3.music.126.net/C71BhIuR2l6pg7Dhz2MFcg==/76965813944980.jpg","pic_str":"76965813944980","pic":76965813944980},"artists":[{"id":1876,"name":"阿杜","alia":["A Do","杜成义"]}],"alias":[],"score":100.0,"copyrightId":14026,"no":3,"ftype":0,"type":0,"duration":236893,"name":"天天看到你","id":60267},{"status":1,"mvid":5443535,"transNames":null,"commentThreadId":"R_SO_4_60216","fee":0,"privilege":{"id":60216,"fee":0,"payed":0,"st":0,"pl":320000,"dl":320000,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":320000,"fl":320000,"toast":false,"flag":0},"djid":0,"album":{"id":5854,"name":"哈啰","picUrl":"http://p3.music.126.net/i0VUD1o1dpaiST5-fpcliA==/129742372090767.jpg","pic_str":"129742372090767","pic":129742372090767},"artists":[{"id":1876,"name":"阿杜","alia":["A Do","杜成义"]},{"id":3684,"name":"林俊杰","alia":["JJ"]}],"alias":[],"score":95.0,"copyrightId":14026,"no":5,"ftype":0,"type":0,"duration":239334,"name":"小说","id":60216},{"status":1,"mvid":5365287,"transNames":null,"commentThreadId":"R_SO_4_60251","fee":0,"privilege":{"id":60251,"fee":0,"payed":0,"st":0,"pl":320000,"dl":320000,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":320000,"fl":320000,"toast":false,"flag":0},"djid":0,"album":{"id":5858,"name":"坚持到底","picUrl":"http://p4.music.126.net/zaNvHNr6z_LH4XPTE8ZT-A==/40681930239730.jpg","pic_str":"40681930239730","pic":40681930239730},"artists":[{"id":1876,"name":"阿杜","alia":["A Do","杜成义"]}],"alias":[],"score":95.0,"copyrightId":14026,"no":6,"ftype":0,"type":0,"duration":273006,"name":"你就像个小孩","id":60251},{"status":0,"mvid":58835,"transNames":null,"commentThreadId":"R_SO_4_406347184","fee":0,"privilege":{"id":406347184,"fee":0,"payed":0,"st":0,"pl":320000,"dl":320000,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":999000,"fl":320000,"toast":false,"flag":0},"djid":0,"album":{"id":34555075,"name":"The Best of A-Do阿杜‧诚意‧跨厂牌超级精选","picUrl":"http://p3.music.126.net/4eHBiUJ1fRHaWHeUx4QoJQ==/1413971956016053.jpg","pic_str":"1413971956016053","pic":1413971956016053},"artists":[{"id":1876,"name":"阿杜","alia":["A Do","杜成义"]}],"alias":[],"score":95.0,"copyrightId":14026,"no":4,"ftype":0,"type":0,"duration":275533,"name":"听见牛在哭","id":406347184},{"status":1,"mvid":5443533,"transNames":null,"commentThreadId":"R_SO_4_60269","fee":0,"privilege":{"id":60269,"fee":0,"payed":0,"st":0,"pl":320000,"dl":320000,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":999000,"fl":320000,"toast":false,"flag":0},"djid":0,"album":{"id":5863,"name":"天黑","picUrl":"http://p4.music.126.net/C71BhIuR2l6pg7Dhz2MFcg==/76965813944980.jpg","pic_str":"76965813944980","pic":76965813944980},"artists":[{"id":1876,"name":"阿杜","alia":["A Do","杜成义"]}],"alias":[],"score":95.0,"copyrightId":14026,"no":4,"ftype":0,"type":0,"duration":261200,"name":"一个人住","id":60269},{"status":1,"mvid":5441771,"transNames":null,"commentThreadId":"R_SO_4_249127","fee":0,"privilege":{"id":249127,"fee":0,"payed":0,"st":0,"pl":320000,"dl":320000,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":999000,"fl":320000,"toast":false,"flag":0},"djid":0,"album":{"id":24931,"name":"10个爱人(跨世纪对唱)","picUrl":"http://p3.music.126.net/s9ggkirOp--u1xNQJriVUQ==/6626756580697115.jpg","pic_str":"6626756580697115","pic":6626756580697115},"artists":[{"id":8163,"name":"江蕙"},{"id":1876,"name":"阿杜","alia":["A Do","杜成义"]}],"alias":[],"score":95.0,"copyrightId":0,"no":1,"ftype":0,"type":0,"duration":288549,"name":"梦中的情话","id":249127},{"status":1,"mvid":5441248,"transNames":null,"commentThreadId":"R_SO_4_27571846","fee":8,"privilege":{"id":27571846,"fee":8,"payed":0,"st":0,"pl":128000,"dl":0,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":128000,"fl":128000,"toast":false,"flag":0},"djid":0,"album":{"id":2639421,"name":"爱上了瘾","picUrl":"http://p3.music.126.net/rrz_tYPtPW1Q_LZfsZ_HQg==/2528876745030012.jpg","pic_str":"2528876745030012","pic":2528876745030012},"artists":[{"id":1021056,"name":"胡杨林","alia":["Joy Hu"]},{"id":1876,"name":"阿杜","alia":["A Do","杜成义"]}],"alias":["电视剧《一触即发》片尾曲"],"score":95.0,"copyrightId":489012,"no":2,"ftype":0,"type":0,"duration":273841,"name":"相爱的泪水","id":27571846},{"status":1,"mvid":5441480,"transNames":null,"commentThreadId":"R_SO_4_60243","fee":0,"privilege":{"id":60243,"fee":0,"payed":0,"st":0,"pl":320000,"dl":320000,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":320000,"fl":320000,"toast":false,"flag":0},"djid":0,"album":{"id":5858,"name":"坚持到底","picUrl":"http://p4.music.126.net/zaNvHNr6z_LH4XPTE8ZT-A==/40681930239730.jpg","pic_str":"40681930239730","pic":40681930239730},"artists":[{"id":1876,"name":"阿杜","alia":["A Do","杜成义"]}],"alias":[],"score":95.0,"copyrightId":14026,"no":3,"ftype":0,"type":0,"duration":219481,"name":"放手","id":60243},{"status":0,"mvid":0,"transNames":null,"commentThreadId":"R_SO_4_5239683","fee":8,"privilege":{"id":5239683,"fee":8,"payed":0,"st":0,"pl":128000,"dl":0,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":192000,"fl":128000,"toast":false,"flag":0},"djid":0,"album":{"id":511176,"name":"中国2010年上海世博会歌曲专辑","picUrl":"http://p4.music.126.net/awVmwZVF4SruVq6V-Ya0gw==/84662395351507.jpg","pic_str":"84662395351507","pic":84662395351507},"artists":[{"id":3684,"name":"林俊杰","alia":["JJ"]},{"id":8259,"name":"金莎","alia":["蓝菲琳"]},{"id":1876,"name":"阿杜","alia":["A Do","杜成义"]},{"id":11097,"name":"By2"}],"alias":[],"score":95.0,"copyrightId":0,"no":12,"ftype":0,"type":0,"duration":259866,"name":"梦想的翅膀","id":5239683},{"status":1,"mvid":5468050,"transNames":null,"commentThreadId":"R_SO_4_60210","fee":0,"privilege":{"id":60210,"fee":0,"payed":0,"st":0,"pl":320000,"dl":320000,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":320000,"fl":320000,"toast":false,"flag":0},"djid":0,"album":{"id":5854,"name":"哈啰","picUrl":"http://p3.music.126.net/i0VUD1o1dpaiST5-fpcliA==/129742372090767.jpg","pic_str":"129742372090767","pic":129742372090767},"artists":[{"id":1876,"name":"阿杜","alia":["A Do","杜成义"]}],"alias":[],"score":95.0,"copyrightId":14026,"no":2,"ftype":0,"type":0,"duration":279171,"name":"下雨的时候会想你","id":60210},{"status":1,"mvid":5441481,"transNames":null,"commentThreadId":"R_SO_4_60208","fee":0,"privilege":{"id":60208,"fee":0,"payed":0,"st":0,"pl":320000,"dl":320000,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":320000,"fl":320000,"toast":false,"flag":0},"djid":0,"album":{"id":5854,"name":"哈啰","picUrl":"http://p4.music.126.net/i0VUD1o1dpaiST5-fpcliA==/129742372090767.jpg","pic_str":"129742372090767","pic":129742372090767},"artists":[{"id":1876,"name":"阿杜","alia":["A Do","杜成义"]}],"alias":[],"score":90.0,"copyrightId":14026,"no":1,"ftype":0,"type":0,"duration":291161,"name":"哈啰","id":60208},{"status":1,"mvid":5441769,"transNames":null,"commentThreadId":"R_SO_4_60276","fee":0,"privilege":{"id":60276,"fee":0,"payed":0,"st":0,"pl":320000,"dl":320000,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":999000,"fl":320000,"toast":false,"flag":0},"djid":0,"album":{"id":5863,"name":"天黑","picUrl":"http://p3.music.126.net/C71BhIuR2l6pg7Dhz2MFcg==/76965813944980.jpg","pic_str":"76965813944980","pic":76965813944980},"artists":[{"id":1876,"name":"阿杜","alia":["A Do","杜成义"]}],"alias":[],"score":90.0,"copyrightId":14026,"no":7,"ftype":0,"type":0,"duration":251733,"name":"无法阻挡","id":60276},{"status":1,"mvid":58836,"transNames":null,"commentThreadId":"R_SO_4_59912","fee":0,"privilege":{"id":59912,"fee":0,"payed":0,"st":0,"pl":320000,"dl":320000,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":320000,"fl":320000,"toast":false,"flag":0},"djid":0,"album":{"id":5827,"name":"没什么好怕","picUrl":"http://p3.music.126.net/6c9eDbjFnTqgrsfr7lFgzA==/29686813955354.jpg","pic_str":"29686813955354","pic":29686813955354},"artists":[{"id":1876,"name":"阿杜","alia":["A Do","杜成义"]}],"alias":[],"score":90.0,"copyrightId":14026,"no":2,"ftype":0,"type":0,"duration":205453,"name":"没什么好怕","id":59912},{"status":1,"mvid":5441633,"transNames":null,"commentThreadId":"R_SO_4_60245","fee":0,"privilege":{"id":60245,"fee":0,"payed":0,"st":0,"pl":320000,"dl":320000,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":320000,"fl":320000,"toast":false,"flag":0},"djid":0,"album":{"id":5858,"name":"坚持到底","picUrl":"http://p4.music.126.net/zaNvHNr6z_LH4XPTE8ZT-A==/40681930239730.jpg","pic_str":"40681930239730","pic":40681930239730},"artists":[{"id":1876,"name":"阿杜","alia":["A Do","杜成义"]}],"alias":[],"score":90.0,"copyrightId":14026,"no":4,"ftype":0,"type":0,"duration":194090,"name":"天蝎蝴蝶","id":60245},{"status":1,"mvid":0,"transNames":null,"commentThreadId":"R_SO_4_5264305","fee":0,"privilege":{"id":5264305,"fee":0,"payed":0,"st":0,"pl":320000,"dl":320000,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":999000,"fl":320000,"toast":false,"flag":0},"djid":0,"album":{"id":512608,"name":"惠威高低音试音碟","picUrl":"http://p3.music.126.net/ueTLW9dACWFNBZdEstXDgw==/69269232567586.jpg","pic_str":"69269232567586","pic":69269232567586},"artists":[{"id":1876,"name":"阿杜","alia":["A Do","杜成义"]}],"alias":[],"score":90.0,"copyrightId":0,"no":10,"ftype":0,"type":0,"duration":233373,"name":"爱你比我重要","id":5264305},{"status":1,"mvid":0,"transNames":null,"commentThreadId":"R_SO_4_60282","fee":0,"privilege":{"id":60282,"fee":0,"payed":0,"st":0,"pl":320000,"dl":320000,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":999000,"fl":320000,"toast":false,"flag":0},"djid":0,"album":{"id":5863,"name":"天黑","picUrl":"http://p4.music.126.net/C71BhIuR2l6pg7Dhz2MFcg==/76965813944980.jpg","pic_str":"76965813944980","pic":76965813944980},"artists":[{"id":1876,"name":"阿杜","alia":["A Do","杜成义"]}],"alias":[],"score":85.0,"copyrightId":14026,"no":10,"ftype":0,"type":0,"duration":250080,"name":"Right Here Waiting","id":60282},{"status":3,"mvid":5468234,"transNames":null,"commentThreadId":"R_SO_4_59875","fee":8,"privilege":{"id":59875,"fee":8,"payed":0,"st":0,"pl":128000,"dl":0,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":320000,"fl":128000,"toast":false,"flag":0},"djid":0,"album":{"id":5819,"name":"第9次初恋","picUrl":"http://p4.music.126.net/GIp-k6PhztMz7cOv0FzukA==/80264348833254.jpg","pic_str":"80264348833254","pic":80264348833254},"artists":[{"id":1876,"name":"阿杜","alia":["A Do","杜成义"]}],"alias":[],"score":85.0,"copyrightId":436010,"no":2,"ftype":0,"type":0,"duration":244846,"name":"Valentine's Day","id":59875},{"status":1,"mvid":5441770,"transNames":null,"commentThreadId":"R_SO_4_60214","fee":0,"privilege":{"id":60214,"fee":0,"payed":0,"st":0,"pl":320000,"dl":320000,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":320000,"fl":320000,"toast":false,"flag":0},"djid":0,"album":{"id":5854,"name":"哈啰","picUrl":"http://p4.music.126.net/i0VUD1o1dpaiST5-fpcliA==/129742372090767.jpg","pic_str":"129742372090767","pic":129742372090767},"artists":[{"id":1876,"name":"阿杜","alia":["A Do","杜成义"]}],"alias":[],"score":80.0,"copyrightId":14026,"no":4,"ftype":0,"type":0,"duration":265352,"name":"退让","id":60214},{"status":1,"mvid":0,"transNames":null,"commentThreadId":"R_SO_4_26375076","fee":0,"privilege":{"id":26375076,"fee":0,"payed":0,"st":0,"pl":320000,"dl":320000,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":320000,"fl":320000,"toast":false,"flag":0},"djid":0,"album":{"id":2471005,"name":"我为歌狂 第三期","picUrl":"http://p4.music.126.net/C1NuSay-c96fGrnypeopSQ==/2404631930005469.jpg","pic_str":"2404631930005469","pic":2404631930005469},"artists":[{"id":1876,"name":"阿杜","alia":["A Do","杜成义"]},{"id":8298,"name":"柯以敏"},{"id":10200,"name":"郁可唯","alia":["Yisa Yu"]}],"alias":[],"score":85.0,"copyrightId":0,"no":8,"ftype":0,"type":0,"duration":463224,"name":"电台情歌 / 水晶 / 爱情 / 如果爱 / 我愿意","id":26375076},{"status":1,"mvid":0,"transNames":null,"commentThreadId":"R_SO_4_60254","fee":0,"privilege":{"id":60254,"fee":0,"payed":0,"st":0,"pl":320000,"dl":320000,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":320000,"fl":320000,"toast":false,"flag":0},"djid":0,"album":{"id":5858,"name":"坚持到底","picUrl":"http://p4.music.126.net/zaNvHNr6z_LH4XPTE8ZT-A==/40681930239730.jpg","pic_str":"40681930239730","pic":40681930239730},"artists":[{"id":1876,"name":"阿杜","alia":["A Do","杜成义"]}],"alias":[],"score":80.0,"copyrightId":14026,"no":7,"ftype":0,"type":0,"duration":262243,"name":"下次如果离开你","id":60254},{"status":1,"mvid":0,"transNames":null,"commentThreadId":"R_SO_4_5252709","fee":0,"privilege":{"id":5252709,"fee":0,"payed":0,"st":0,"pl":320000,"dl":320000,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":128000,"fl":320000,"toast":false,"flag":0},"djid":0,"album":{"id":511932,"name":"海蝶夯之唱响世界","picUrl":"http://p4.music.126.net/Idvy0astfIET8_3bsu8TqQ==/106652627911549.jpg","pic_str":"106652627911549","pic":106652627911549},"artists":[{"id":6454,"name":"张信哲","alia":["阿哲","Jeff Chang"]},{"id":5441,"name":"王传一"},{"id":3684,"name":"林俊杰","alia":["JJ"]},{"id":8259,"name":"金莎","alia":["蓝菲琳"]},{"id":3736,"name":"林宇中"},{"id":8408,"name":"李冰冰"},{"id":3142,"name":"洪俊扬"},{"id":7958,"name":"胡灵"},{"id":1876,"name":"阿杜","alia":["A Do","杜成义"]}],"alias":[],"score":80.0,"copyrightId":14026,"no":1,"ftype":0,"type":0,"duration":279040,"name":"唱响世界","id":5252709},{"status":1,"mvid":0,"transNames":null,"commentThreadId":"R_SO_4_60258","fee":0,"privilege":{"id":60258,"fee":0,"payed":0,"st":0,"pl":320000,"dl":320000,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":320000,"fl":320000,"toast":false,"flag":0},"djid":0,"album":{"id":5858,"name":"坚持到底","picUrl":"http://p4.music.126.net/zaNvHNr6z_LH4XPTE8ZT-A==/40681930239730.jpg","pic_str":"40681930239730","pic":40681930239730},"artists":[{"id":1876,"name":"阿杜","alia":["A Do","杜成义"]}],"alias":[],"score":80.0,"copyrightId":14026,"no":9,"ftype":0,"type":0,"duration":260206,"name":"相容","id":60258},{"status":1,"mvid":0,"transNames":null,"commentThreadId":"R_SO_4_60278","fee":0,"privilege":{"id":60278,"fee":0,"payed":0,"st":0,"pl":320000,"dl":320000,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":999000,"fl":320000,"toast":false,"flag":0},"djid":0,"album":{"id":5863,"name":"天黑","picUrl":"http://p4.music.126.net/C71BhIuR2l6pg7Dhz2MFcg==/76965813944980.jpg","pic_str":"76965813944980","pic":76965813944980},"artists":[{"id":1876,"name":"阿杜","alia":["A Do","杜成义"]}],"alias":[],"score":80.0,"copyrightId":14026,"no":8,"ftype":0,"type":0,"duration":211187,"name":"你很好","id":60278},{"status":1,"mvid":5468235,"transNames":null,"commentThreadId":"R_SO_4_60260","fee":0,"privilege":{"id":60260,"fee":0,"payed":0,"st":0,"pl":320000,"dl":320000,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":320000,"fl":320000,"toast":false,"flag":0},"djid":0,"album":{"id":5858,"name":"坚持到底","picUrl":"http://p3.music.126.net/zaNvHNr6z_LH4XPTE8ZT-A==/40681930239730.jpg","pic_str":"40681930239730","pic":40681930239730},"artists":[{"id":1876,"name":"阿杜","alia":["A Do","杜成义"]}],"alias":[],"score":80.0,"copyrightId":14026,"no":10,"ftype":0,"type":0,"duration":264150,"name":"雨衣","id":60260},{"status":1,"mvid":5468051,"transNames":null,"commentThreadId":"R_SO_4_60032","fee":0,"privilege":{"id":60032,"fee":0,"payed":0,"st":0,"pl":320000,"dl":320000,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":320000,"fl":320000,"toast":false,"flag":0},"djid":0,"album":{"id":5835,"name":"撒野","picUrl":"http://p3.music.126.net/DErD3so50BOu3SF_EFiR7g==/60473139540016.jpg","pic_str":"60473139540016","pic":60473139540016},"artists":[{"id":1876,"name":"阿杜","alia":["A Do","杜成义"]}],"alias":[],"score":80.0,"copyrightId":14026,"no":8,"ftype":0,"type":0,"duration":217208,"name":"不让你走","id":60032},{"status":1,"mvid":0,"transNames":null,"commentThreadId":"R_SO_4_5258156","fee":0,"privilege":{"id":5258156,"fee":0,"payed":0,"st":0,"pl":320000,"dl":320000,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":128000,"fl":320000,"toast":false,"flag":0},"djid":0,"album":{"id":512247,"name":"2006海蝶音乐15周年聆听世界精选集","picUrl":"http://p4.music.126.net/L08foLiPGvxd-w-YS4QKng==/56075093033596.jpg","pic_str":"56075093033596","pic":56075093033596},"artists":[{"id":3684,"name":"林俊杰","alia":["JJ"]},{"id":228271,"name":"林志清"},{"id":8259,"name":"金莎","alia":["蓝菲琳"]},{"id":3736,"name":"林宇中"},{"id":214860,"name":"Will"},{"id":1876,"name":"阿杜","alia":["A Do","杜成义"]}],"alias":[],"score":80.0,"copyrightId":0,"no":1,"ftype":0,"type":0,"duration":266684,"name":"聆听世界","id":5258156},{"status":2,"mvid":0,"transNames":null,"commentThreadId":"R_SO_4_28232260","fee":0,"privilege":{"id":28232260,"fee":0,"payed":0,"st":0,"pl":320000,"dl":320000,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":128000,"fl":320000,"toast":false,"flag":0},"djid":0,"album":{"id":2732493,"name":"热门华语202","picUrl":"http://p3.music.126.net/-7gL1G_kVsgIb7eAFyQdNA==/3262251001467551.jpg","pic_str":"3262251001467551","pic":3262251001467551},"artists":[{"id":10565,"name":"赵薇"},{"id":1876,"name":"阿杜","alia":["A Do","杜成义"]}],"alias":[],"score":80.0,"copyrightId":0,"no":1,"ftype":0,"type":0,"duration":203311,"name":"温暖","id":28232260},{"status":1,"mvid":58865,"transNames":null,"commentThreadId":"R_SO_4_59914","fee":0,"privilege":{"id":59914,"fee":0,"payed":0,"st":0,"pl":320000,"dl":320000,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":320000,"fl":320000,"toast":false,"flag":0},"djid":0,"album":{"id":5827,"name":"没什么好怕","picUrl":"http://p4.music.126.net/6c9eDbjFnTqgrsfr7lFgzA==/29686813955354.jpg","pic_str":"29686813955354","pic":29686813955354},"artists":[{"id":1876,"name":"阿杜","alia":["A Do","杜成义"]}],"alias":[],"score":75.0,"copyrightId":14026,"no":3,"ftype":0,"type":0,"duration":200385,"name":"人狼","id":59914},{"status":1,"mvid":0,"transNames":null,"commentThreadId":"R_SO_4_60103","fee":0,"privilege":{"id":60103,"fee":0,"payed":0,"st":0,"pl":320000,"dl":320000,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":192000,"fl":320000,"toast":false,"flag":0},"djid":0,"album":{"id":5847,"name":"I...Do","picUrl":"http://p3.music.126.net/_8mL0GwlLZ8Ugys1WsoHfw==/54975581394104.jpg","pic_str":"54975581394104","pic":54975581394104},"artists":[{"id":1876,"name":"阿杜","alia":["A Do","杜成义"]}],"alias":[],"score":75.0,"copyrightId":14026,"no":1,"ftype":0,"type":0,"duration":259056,"name":"I...Do","id":60103},{"status":1,"mvid":0,"transNames":null,"commentThreadId":"R_SO_4_60108","fee":0,"privilege":{"id":60108,"fee":0,"payed":0,"st":0,"pl":320000,"dl":320000,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":320000,"fl":320000,"toast":false,"flag":0},"djid":0,"album":{"id":5847,"name":"I...Do","picUrl":"http://p4.music.126.net/_8mL0GwlLZ8Ugys1WsoHfw==/54975581394104.jpg","pic_str":"54975581394104","pic":54975581394104},"artists":[{"id":1876,"name":"阿杜","alia":["A Do","杜成义"]}],"alias":[],"score":75.0,"copyrightId":14026,"no":2,"ftype":0,"type":0,"duration":275252,"name":"下雪","id":60108},{"status":1,"mvid":0,"transNames":null,"commentThreadId":"R_SO_4_59940","fee":0,"privilege":{"id":59940,"fee":0,"payed":0,"st":0,"pl":320000,"dl":320000,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":320000,"fl":320000,"toast":false,"flag":0},"djid":0,"album":{"id":5827,"name":"没什么好怕","picUrl":"http://p3.music.126.net/6c9eDbjFnTqgrsfr7lFgzA==/29686813955354.jpg","pic_str":"29686813955354","pic":29686813955354},"artists":[{"id":1876,"name":"阿杜","alia":["A Do","杜成义"]}],"alias":[],"score":75.0,"copyrightId":14026,"no":10,"ftype":0,"type":0,"duration":294818,"name":"差一点 (私藏摇滚版)","id":59940},{"status":3,"mvid":0,"transNames":null,"commentThreadId":"R_SO_4_59877","fee":8,"privilege":{"id":59877,"fee":8,"payed":0,"st":0,"pl":128000,"dl":0,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":320000,"fl":128000,"toast":false,"flag":0},"djid":0,"album":{"id":5819,"name":"第9次初恋","picUrl":"http://p4.music.126.net/GIp-k6PhztMz7cOv0FzukA==/80264348833254.jpg","pic_str":"80264348833254","pic":80264348833254},"artists":[{"id":1876,"name":"阿杜","alia":["A Do","杜成义"]}],"alias":[],"score":75.0,"copyrightId":436010,"no":3,"ftype":0,"type":0,"duration":212323,"name":"再唱一首","id":59877},{"status":1,"mvid":0,"transNames":null,"commentThreadId":"R_SO_4_60241","fee":0,"privilege":{"id":60241,"fee":0,"payed":0,"st":0,"pl":320000,"dl":320000,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":320000,"fl":320000,"toast":false,"flag":0},"djid":0,"album":{"id":5858,"name":"坚持到底","picUrl":"http://p3.music.126.net/zaNvHNr6z_LH4XPTE8ZT-A==/40681930239730.jpg","pic_str":"40681930239730","pic":40681930239730},"artists":[{"id":1876,"name":"阿杜","alia":["A Do","杜成义"]}],"alias":[],"score":75.0,"copyrightId":14026,"no":2,"ftype":0,"type":0,"duration":225202,"name":"惩罚","id":60241},{"status":0,"mvid":0,"transNames":null,"commentThreadId":"R_SO_4_435592361","fee":0,"privilege":{"id":435592361,"fee":0,"payed":0,"st":0,"pl":320000,"dl":320000,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":999000,"fl":320000,"toast":false,"flag":0},"djid":0,"album":{"id":34921053,"name":"我听到天开始亮了","picUrl":"http://p3.music.126.net/GkSN2KanXpD-wKb_W4aHSg==/18689498649596560.jpg","pic_str":"18689498649596560","pic":18689498649596560},"artists":[{"id":1876,"name":"阿杜","alia":["A Do","杜成义"]}],"alias":[],"score":75.0,"copyrightId":14026,"no":10,"ftype":0,"type":0,"duration":244272,"name":"好想告诉你","id":435592361},{"status":1,"mvid":0,"transNames":null,"commentThreadId":"R_SO_4_59960","fee":0,"privilege":{"id":59960,"fee":0,"payed":0,"st":0,"pl":320000,"dl":320000,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":320000,"fl":320000,"toast":false,"flag":0},"djid":0,"album":{"id":5830,"name":"Do The Best","picUrl":"http://p3.music.126.net/miUktYkY4CD3LM-7hPIGog==/912594651097409.jpg","pic_str":"912594651097409","pic":912594651097409},"artists":[{"id":1876,"name":"阿杜","alia":["A Do","杜成义"]}],"alias":[],"score":70.0,"copyrightId":14026,"no":5,"ftype":0,"type":0,"duration":291605,"name":"一首情歌","id":59960},{"status":0,"mvid":0,"transNames":null,"commentThreadId":"R_SO_4_406346211","fee":0,"privilege":{"id":406346211,"fee":0,"payed":0,"st":0,"pl":320000,"dl":320000,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":999000,"fl":320000,"toast":false,"flag":0},"djid":0,"album":{"id":34555075,"name":"The Best of A-Do阿杜‧诚意‧跨厂牌超级精选","picUrl":"http://p3.music.126.net/4eHBiUJ1fRHaWHeUx4QoJQ==/1413971956016053.jpg","pic_str":"1413971956016053","pic":1413971956016053},"artists":[{"id":1876,"name":"阿杜","alia":["A Do","杜成义"]}],"alias":[],"score":70.0,"copyrightId":14026,"no":10,"ftype":0,"type":0,"duration":259426,"name":"祝你快乐","id":406346211},{"status":0,"mvid":0,"transNames":null,"commentThreadId":"R_SO_4_406346208","fee":0,"privilege":{"id":406346208,"fee":0,"payed":0,"st":0,"pl":320000,"dl":320000,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":999000,"fl":320000,"toast":false,"flag":0},"djid":0,"album":{"id":34555075,"name":"The Best of A-Do阿杜‧诚意‧跨厂牌超级精选","picUrl":"http://p4.music.126.net/4eHBiUJ1fRHaWHeUx4QoJQ==/1413971956016053.jpg","pic_str":"1413971956016053","pic":1413971956016053},"artists":[{"id":1876,"name":"阿杜","alia":["A Do","杜成义"]}],"alias":[],"score":70.0,"copyrightId":14026,"no":6,"ftype":0,"type":0,"duration":274893,"name":"我在你的爱情之外","id":406346208},{"status":3,"mvid":0,"transNames":null,"commentThreadId":"R_SO_4_59870","fee":8,"privilege":{"id":59870,"fee":8,"payed":0,"st":0,"pl":128000,"dl":0,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":320000,"fl":128000,"toast":false,"flag":0},"djid":0,"album":{"id":5819,"name":"第9次初恋","picUrl":"http://p4.music.126.net/GIp-k6PhztMz7cOv0FzukA==/80264348833254.jpg","pic_str":"80264348833254","pic":80264348833254},"artists":[{"id":1876,"name":"阿杜","alia":["A Do","杜成义"]}],"alias":[],"score":65.0,"copyrightId":436010,"no":1,"ftype":0,"type":0,"duration":223634,"name":"几年了","id":59870},{"status":0,"mvid":0,"transNames":null,"commentThreadId":"R_SO_4_406346210","fee":0,"privilege":{"id":406346210,"fee":0,"payed":0,"st":0,"pl":320000,"dl":320000,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":999000,"fl":320000,"toast":false,"flag":0},"djid":0,"album":{"id":34555075,"name":"The Best of A-Do阿杜‧诚意‧跨厂牌超级精选","picUrl":"http://p4.music.126.net/4eHBiUJ1fRHaWHeUx4QoJQ==/1413971956016053.jpg","pic_str":"1413971956016053","pic":1413971956016053},"artists":[{"id":1876,"name":"阿杜","alia":["A Do","杜成义"]}],"alias":[],"score":65.0,"copyrightId":14026,"no":8,"ftype":0,"type":0,"duration":210013,"name":"撒野","id":406346210},{"status":0,"mvid":0,"transNames":null,"commentThreadId":"R_SO_4_406346209","fee":0,"privilege":{"id":406346209,"fee":0,"payed":0,"st":0,"pl":320000,"dl":320000,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":999000,"fl":320000,"toast":false,"flag":0},"djid":0,"album":{"id":34555075,"name":"The Best of A-Do阿杜‧诚意‧跨厂牌超级精选","picUrl":"http://p4.music.126.net/4eHBiUJ1fRHaWHeUx4QoJQ==/1413971956016053.jpg","pic_str":"1413971956016053","pic":1413971956016053},"artists":[{"id":1876,"name":"阿杜","alia":["A Do","杜成义"]}],"alias":[],"score":65.0,"copyrightId":14026,"no":7,"ftype":0,"type":0,"duration":282040,"name":"天涯海角","id":406346209},{"status":0,"mvid":0,"transNames":null,"commentThreadId":"R_SO_4_406347192","fee":0,"privilege":{"id":406347192,"fee":0,"payed":0,"st":0,"pl":320000,"dl":320000,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":999000,"fl":320000,"toast":false,"flag":0},"djid":0,"album":{"id":34555075,"name":"The Best of A-Do阿杜‧诚意‧跨厂牌超级精选","picUrl":"http://p3.music.126.net/4eHBiUJ1fRHaWHeUx4QoJQ==/1413971956016053.jpg","pic_str":"1413971956016053","pic":1413971956016053},"artists":[{"id":1876,"name":"阿杜","alia":["A Do","杜成义"]}],"alias":[],"score":60.0,"copyrightId":14026,"no":13,"ftype":0,"type":0,"duration":222546,"name":"爱上谁","id":406347192}]</textarea>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="g-sd4">
+<div class="g-wrap7">
+<div class="m-sidead f-hide" data-has-music-ad="0" id="j-music-ad">
+<div class="j-flag f-hide"></div>
+<div class="f-hide j-flag">
+<ins check-src="http://iad.g.163.com/wa/ad_check?site=netease&amp;affiliate=music&amp;cat=detail&amp;type=logo200x220&amp;location=1" class="adsbydm" inner-height="220" inner-prod="adbid" inner-src="http://iad.g.163.com/wa/ad?site=netease&amp;affiliate=music&amp;cat=detail&amp;type=logo200x220&amp;location=1" inner-width="200"></ins>
+</div>
+</div>
+<h3 class="u-hd3">
+<span class="f-fl">热门歌手</span>
+</h3>
+<ul class="m-hdlist f-cb" id="rec-similar-artists">
+<li data-res-action="log" data-res-data="recommendclick|0||artist-artist-recommend|1876" data-res-id="6452" data-res-type="2">
+<div class="hd">
+<a href="/artist?id=6452" title="周杰伦">
+<img src="http://p4.music.126.net/Q_ExePNkmgB2yWyLp12dYg==/18569651883380118.jpg?param=50y50"/>
+</a>
+</div>
+<p>
+<a class="nm nm-icn f-ib f-thide" href="/artist?id=6452" title="周杰伦">周杰伦</a>
+</p>
+</li>
+<li data-res-action="log" data-res-data="recommendclick|1||artist-artist-recommend|1876" data-res-id="2116" data-res-type="2">
+<div class="hd">
+<a href="/artist?id=2116" title="陈奕迅">
+<img src="http://p3.music.126.net/6xgsfT2ZLjdgzbwO4UiGwA==/3285340746016446.jpg?param=50y50"/>
+</a>
+</div>
+<p>
+<a class="nm nm-icn f-ib f-thide" href="/artist?id=2116" title="陈奕迅">陈奕迅</a>
+</p>
+</li>
+<li data-res-action="log" data-res-data="recommendclick|2||artist-artist-recommend|1876" data-res-id="5781" data-res-type="2">
+<div class="hd">
+<a href="/artist?id=5781" title="薛之谦">
+<img src="http://p3.music.126.net/ULlwJ2drOfYv-f6-_7jGGQ==/3250156379592966.jpg?param=50y50"/>
+</a>
+</div>
+<p>
+<a class="nm nm-icn f-ib f-thide" href="/artist?id=5781" title="薛之谦">薛之谦</a>
+</p>
+</li>
+<li data-res-action="log" data-res-data="recommendclick|3||artist-artist-recommend|1876" data-res-id="3684" data-res-type="2">
+<div class="hd">
+<a href="/artist?id=3684" title="林俊杰">
+<img src="http://p3.music.126.net/cnGpIQ6rQCKVrDyVVSpzeg==/3263350518850877.jpg?param=50y50"/>
+</a>
+</div>
+<p>
+<a class="nm nm-icn f-ib f-thide" href="/artist?id=3684" title="林俊杰">林俊杰</a>
+</p>
+</li>
+<li data-res-action="log" data-res-data="recommendclick|4||artist-artist-recommend|1876" data-res-id="4292" data-res-type="2">
+<div class="hd">
+<a href="/artist?id=4292" title="李荣浩">
+<img src="http://p3.music.126.net/xH7i_je62lcQkhQYjNHgfQ==/5828511138922177.jpg?param=50y50"/>
+</a>
+</div>
+<p>
+<a class="nm nm-icn f-ib f-thide" href="/artist?id=4292" title="李荣浩">李荣浩</a>
+</p>
+</li>
+<li data-res-action="log" data-res-data="recommendclick|5||artist-artist-recommend|1876" data-res-id="6460" data-res-type="2">
+<div class="hd">
+<a href="/artist?id=6460" title="张学友">
+<img src="http://p3.music.126.net/1JG8Uwzb5XAJXaPUHR6RBw==/3238061747024716.jpg?param=50y50"/>
+</a>
+</div>
+<p>
+<a class="nm nm-icn f-ib f-thide" href="/artist?id=6460" title="张学友">张学友</a>
+</p>
+</li>
+</ul>
+<div class="m-multi">
+<h3 class="u-hd3">
+<span class="f-fl">网易云音乐多端下载</span>
+</h3>
+<ul class="bg f-cb">
+<li><a class="ios" data-log-action="downloadapp" data-log-json='{"type":"iPhone","source":"detail"}' data-res-action="bilog" hidefocus="true" href="https://itunes.apple.com/app/id590338362" target="_blank">iPhone</a></li>
+<li><a class="pc" data-log-action="downloadapp" data-log-json='{"type":"pc","source":"detail"}' data-res-action="bilog" hidefocus="true" href="http://music.163.com/api/pc/download/latest" target="_blank">PC</a></li>
+<li><a class="aos" data-log-action="downloadapp" data-log-json='{"type":"android","source":"detail"}' data-res-action="bilog" hidefocus="true" href="http://music.163.com/api/android/download/latest2" target="_blank">Android</a></li>
+</ul>
+<p class="s-fc4">同步歌单，随时畅听320k好音乐</p>
+</div>
+</div>
+</div>
+</div>
+<div class="g-ft ">
+<div class="m-ft">
+<div class="wrap f-cb">
+<div class="copy">
+<p>
+<a class="s-fc4" href="//music.163.com/about" target="_blank">关于网易</a><span class="line">|</span>
+<a class="s-fc4" href="//help.163.com/" target="_blank">客户服务</a><span class="line">|</span>
+<a class="s-fc4" href="//music.163.com/html/web2/service.html" target="_blank">服务条款</a><span class="line">|</span>
+<a class="s-fc4" href="//sitemap.163.com/" target="_blank">网站导航</a><span class="line">|</span>
+<a class="s-fc4" hidefocus="true" href="#" id="g_feedback" onclick="nm.x.feedback();return false;">意见反馈</a>
+</p>
+<p class="s-fc3">
+<span class="sep">网易公司版权所有©1997-2017</span>杭州乐读科技有限公司运营：<a class="s-fc3" href="http://p1.music.126.net/-DB9zs1FAJq8vg7HOb-yOQ==/3250156395654666.jpg" target="_blank">浙网文[2015] 0415-135号</a>
+</p>
+</div>
+<ul class="enter f-fr">
+<li>
+<a class="logo logo-1 f-tdn" href="//music.163.com/topic/selfmedia" target="_blank">
+<span class="s-fc3">自媒体</span><br>
+<span class="s-fc4">提升影响力知名度</span>
+</br></a>
+</li>
+<li>
+<a class="logo logo-2 f-tdn" href="//music.163.com/recruit" target="_blank">
+<span class="s-fc3">独立音乐人</span><br>
+<span class="s-fc4">与亿万乐迷互动</span>
+</br></a>
+</li>
+<li>
+<a class="logo logo-3 f-tdn" href="//music.163.com/topic/recruit" target="_blank">
+<span class="s-fc3">音乐专栏</span><br>
+<span class="s-fc4">与同道中人交流</span>
+</br></a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<a class="m-back" hidefocus="true" href="#" id="g_backtop" style="display:none;" title="回到顶部">回到顶部</a>
+<div id="template-box" style="display:none;"> <textarea id="m-wgt-selector" name="ntp" style="display:none;"><div class="u-slt f-pr"><span class="curr f-thide"></span><i class="btn"></i><ul></ul></div>
+</textarea>
+<textarea id="m-wgt-selector-list" name="jst" style="display:none;">{list data as x}<li class="f-thide"><a data-value="${x.v}" href="#" title="${x.t}">${x.t}</a></li>{/list}
+</textarea>
+<textarea id="m-wgt-create" name="ntp" style="display:none;"><div class="lyct m-crgd f-cb f-tc">
+<p>歌单名：<input class="u-txt j-flag" type="text"/></p>
+<div class="u-err f-vhide j-flag"><i class="u-icn u-icn-25"></i>错误提示</div>
+<p class="tip s-fc4">可通过“收藏”将音乐添加到新歌单中</p>
+<div class="btn">
+<a class="u-btn2 u-btn2-2 u-btn2-w2 j-flag" hidefocus="true" href="javascript:;"><i>新 建</i></a>
+<a class="u-btn2 u-btn2-1 u-btn2-w2 j-flag" hidefocus="true" href="javascript:;"><i>取 消</i></a>
+</div>
+</div>
+</textarea>
+<textarea id="m-wgt-comment" name="ntp" style="display:none;"><div class="u-title u-title-1">
+<h3><span class="f-ff2">评论</span></h3><span class="sub s-fc3">共<span class="j-flag">0</span>条评论</span>
+</div>
+<div class="m-cmmt">
+<div class="iptarea">
+<div class="head"><img src="http://s4.music.126.net/style/web2/img/default/default_avatar.jpg?param=50y50"/></div>
+<div class="j-flag"></div>
+</div>
+<div class="cmmts j-flag"></div>
+<div class="j-flag"></div>
+</div>
+</textarea>
+<textarea id="m-wgt-comment2" name="ntp" style="display:none;"><div class="m-dynamic">
+<div class="dbox dbox-cmt">
+<span class="darr"><i class="bd">◆</i><i class="bg">◆</i></span>
+<div class="m-cmmt m-cmmt-s">
+<div class="iptarea j-flag">
+</div>
+<div class="cmmts">
+<div class="j-flag"></div>
+<div class="dmore dmore-cmt f-cb">
+<div class="dhas s-fc3">后面还有<span class="j-flag">0</span>条评论，<a class="s-fc3 f-ff1" data-type="viewmore" href="javascript:void(0)">查看更多&gt;</a></div>
+<a class="dtoggle" data-type="cc" href="javascript:void(0)">收起<i class="u-icn u-icn-61" data-type="cc"></i></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</textarea>
+<textarea id="m-wgt-comment3" name="ntp" style="display:none;"><div class="dcmt">
+<p><span class="f-fw1">评论</span> (<span class="j-flag"></span>)</p>
+<div class="m-cmmt m-cmmt-s">
+<div class="iptarea j-flag">
+</div>
+<div class="cmmts j-flag">
+</div>
+<div class="j-flag">
+</div>
+</div>
+</div>
+</textarea>
+<textarea id="m-wgt-comment-item" name="jst" style="display:none;"> {list beg..end as y}
+{var x=xlist[y]}
+{if !!x}
+<div class="itm" data-id="${x.commentId}" id="${x.commentId|seed}">
+<div class="head">
+<a href="/user/home?id=${x.user.userId}"><img src="${x.user.avatarUrl}?param=50y50"/></a>
+</div>
+<div class="cntwrap">
+<div class="">
+<div class="cnt f-brk">
+<a class="s-fc7" href="/user/home?id=${x.user.userId}">${escape(x.user.nickname)}</a>
+${getAuthIcon(x.user)}
+{if !!x.beRepliedUser}
+ 回复 <a class="s-fc7" href="/user/home?id=${x.beRepliedUser.userId}">${escape(x.beRepliedUser.nickname)}</a>
+{if x.beRepliedUser.userType==4}<sup class="icn u-icn2 u-icn2-music2"></sup>
+{elseif x.beRepliedUser.authStatus==1}<sup class="u-icn u-icn-1"></sup>
+{elseif x.beRepliedUser.expertTags &amp;&amp; x.beRepliedUser.expertTags.length&gt;0}<sup class="u-icn u-icn-84"></sup>{/if}
+{/if}
+：${getRichText(escape(x.content),'s-fc7')}
+</div>
+</div>
+{if x.beReplied&amp;&amp;x.beReplied.length;}
+{var replied = x.beReplied[0]}
+<div class="que f-brk f-pr s-fc3">
+<span class="darr"><i class="bd">◆</i><i class="bg">◆</i></span>
+{if replied&amp;&amp;replied.content;&amp;&amp;replied.status;!=-5}
+<a class="s-fc7" href="/user/home?id=${replied.user.userId}">${replied.user.nickname}${getAuthIcon(replied.user)}</a>：${getRichText(escape(replied.content),'s-fc7')}
+{else}
+该评论已删除
+{/if}
+</div>
+{/if}
+<div class="rp">
+<div class="time s-fc4">${timeformat(x.time)}</div>
+{if x.topCommentId}<span class="top">音乐人置顶</span>{/if}
+{if canTop()&amp;&amp;GUser;&amp;&amp;GUser.userId;&amp;&amp;(GUser.userId==x.user.userId)}
+<span class="dlt">{if x.topCommentId}<a class="s-fc3" data-id="${x.commentId}" data-tid="${x.topCommentId}" data-type="canceltop" href="javascript:void(0)">解除置顶</a>{else}<a class="s-fc3" data-id="${x.commentId}" data-type="gotop" href="javascript:void(0)">置顶评论</a>{/if}<span class="sep">|</span></span>
+{/if}
+{if GUser&amp;&amp;GUser.userId;&amp;&amp;(GUser.userId==x.user.userId||GUser.userId==resUserId)}
+<span class="dlt"><a class="s-fc3" data-id="${x.commentId}" href="javascript:void(0)" if}data-type="delete" x.topcommentid}data-tid="${x.topCommentId}" {="" {if="">删除</a><span class="sep">|</span></span>
+{/if}
+{if GAllowRejectComment}
+{if hot||!x.isRemoveHotComment}
+<span class="dlt"><a class="s-fc3" data-id="${x.commentId}" data-type="reject" href="javascript:void(0)">移除精彩评论</a><span class="sep">|</span></span>
+{else}
+<span class="s-fc3">已移除精彩评论</span><span class="sep">|</span>
+{/if}
+{/if}
+{if !x.topCommentId}<a data-id="${x.commentId}" data-type="{if !x.liked}like{else}unlike{/if}" href="javascript:void(0)"><i class="zan u-icn2 u-icn2-{if x.liked}13{else}12{/if}"></i>{if x.likedCount} (${getPlayCount(x.likedCount)}){/if}</a>
+<span class="sep">|</span>{/if}
+<a class="s-fc3" data-id="${x.commentId}" data-type="reply" href="javascript:void(0)">回复</a>
+</div>
+</div>
+</div>
+{/if}
+{/list}
+</textarea>
+<textarea id="m-wgt-comment-item-2" name="jst" style="display:none;"> {list beg..end as y}
+{var x=xlist[y]}
+<div class="itm" data-id="${x.commentId}">
+<div class="head">
+<a href="/user/home?id=${x.user.userId}"><img src="${x.user.avatarUrl}?param=50y50"/></a>
+</div>
+<div class="cntwrap">
+<div class="f-brk">
+<a class="s-fc7" href="/user/home?id=${x.user.userId}">${escape(x.user.nickname)}</a>
+{if x.user.userType==4}<sup class="icn u-icn2 u-icn2-music2"></sup>
+{elseif x.user.authStatus==1}<sup class="u-icn u-icn-1"></sup>
+{elseif x.user.expertTags &amp;&amp; x.user.expertTags.length&gt;0}<sup class="u-icn u-icn-84"></sup>{/if}
+{if !!x.beRepliedUser}
+ 回复 <a class="s-fc7" href="/user/home?id=${x.beRepliedUser.userId}">${escape(x.beRepliedUser.nickname)}</a>
+{if x.beRepliedUser.userType==4}<sup class="icn u-icn2 u-icn2-music2"></sup>
+{elseif x.beRepliedUser.authStatus==1}<sup class="u-icn u-icn-1"></sup>
+{elseif x.beRepliedUser.expertTags &amp;&amp; x.beRepliedUser.expertTags.length&gt;0}<sup class="u-icn u-icn-84"></sup>{/if}
+{/if}
+：${getRichText(escape(x.content),'s-fc7')}
+</div>
+{if x.beReplied&amp;&amp;x.beReplied.length;}
+{var replied = x.beReplied[0]}
+<div class="que f-brk f-pr s-fc3">
+<span class="darr"><i class="bd">◆</i><i class="bg">◆</i></span>
+{if replied&amp;&amp;replied.content;}
+<a class="s-fc7" href="/user/home?id=${replied.user.userId}">${replied.user.nickname}${getAuthIcon(replied.user)}</a>：${getRichText(escape(replied.content),'s-fc7')}
+{else}
+该评论已删除
+{/if}
+</div>
+{/if}
+<div class="rp">
+<div class="time s-fc4">${timeformat(x.time)}</div>
+{if GUser&amp;&amp;GUser.userId;&amp;&amp;(GUser.userId==x.user.userId||GUser.userId==resUserId)}
+<span class="dlt">
+<a class="s-fc3" data-id="${x.commentId}" data-type="delete" href="javascript:void(0)">删除</a><span class="sep">|</span>
+</span>
+{/if}
+<a data-id="${x.commentId}" data-type="{if !x.liked}like{else}unlike{/if}" href="javascript:void(0)"><i class="zan u-icn2 u-icn2-{if x.liked}13{else}12{/if}"></i>{if x.likedCount} (${getPlayCount(x.likedCount)}){/if}</a>
+<span class="sep">|</span>
+<a class="s-fc3" data-id="${x.commentId}" data-type="reply" href="javascript:void(0)">回复</a>
+</div>
+</div>
+</div>
+{/list}
+</textarea>
+<textarea id="m-wgt-input-1" name="jst" style="display:none;"> <div class="m-cmmtipt f-cb f-pr">
+<div class="u-txtwrap holder-parent f-pr">
+<textarea class="u-txt area j-flag" placeholder="${placeholder}">&lt;/textarea&gt;
+</textarea></div>
+<div class="btns f-cb f-pr">
+<i class="icn u-icn u-icn-36 j-flag"></i><i class="icn u-icn u-icn-41 j-flag"></i>
+<a class="btn u-btn u-btn-1 j-flag" href="javascript:void(0)">评论</a>
+<span class="zs s-fc4 j-flag">110/120</span>
+</div>
+<div class="corr u-arr"><em class="arrline">◆</em><span class="arrclr">◆</span></div>
+</div>
+</textarea>
+<textarea id="m-wgt-input-2" name="jst" style="display:none;"> <div class="rept m-quk m-quk-1 f-pr">
+<div class="iner">
+<div class="corr u-arr u-arr-1"><em class="arrline">◆</em><span class="arrclr">◆</span></div>
+<div class="m-cmmtipt m-cmmtipt-1 f-cb f-pr">
+<div class="u-txtwrap holder-parent f-pr j-wrap">
+<textarea class="u-txt area j-flag" placeholder="${placeholder}">&lt;/textarea&gt;
+</textarea></div>
+<div class="btns f-cb f-pr">
+<i class="icn u-icn u-icn-36 j-flag"></i><i class="icn u-icn u-icn-41 j-flag"></i>
+<a class="btn u-btn u-btn-1 j-flag" href="javascript:void(0)">回复</a>
+<span class="zs s-fc4 j-flag">110/120</span>
+</div>
+</div>
+</div>
+</div>
+</textarea>
+<textarea id="m-wgt-input-3" name="jst" style="display:none;"> <div class="m-cmmtipt f-cb f-pr">
+<div class="u-txtwrap holder-parent f-pr">
+<textarea class="u-txt area j-flag" placeholder="${placeholder}">&lt;/textarea&gt;
+</textarea></div>
+<div class="btns f-cb f-pr">
+<i class="icn u-icn u-icn-36 j-flag"></i><i class="icn u-icn u-icn-41 j-flag"></i>
+<a class="btn u-btn u-btn-1 j-flag" href="javascript:void(0)">回复</a>
+<span class="zs s-fc4 j-flag">110/120</span>
+</div>
+</div>
+</textarea>
+<textarea id="m-wgt-input-4" name="jst" style="display:none;"> <div class="m-cmmtipt f-cb f-pr">
+<div class="u-txtwrap f-pr">
+<textarea class="u-txt area j-flag">&lt;/textarea&gt;
+</textarea></div>
+<div class="btns f-cb f-pr">
+<i class="icn u-icn u-icn-36 j-flag"></i><i class="icn u-icn u-icn-41 j-flag" style="display:none;"></i>
+<a class="f-fr u-btn u-btn-1 j-flag" href="javascript:void(0)">发送</a><span class="zs s-fc4 j-flag">110/120</span>
+</div>
+</div>
+</textarea>
+<textarea id="m-wgt-input-5" name="jst" style="display:none;"> <div class="m-cmmtipt f-cb f-pr">
+<div class="u-txtwrap holder-parent f-pr">
+<textarea class="u-txt area j-flag" placeholder="${placeholder}">&lt;/textarea&gt;
+</textarea></div>
+<div class="btns f-cb f-pr">
+<i class="icn u-icn u-icn-36 j-flag"></i><i class="icn u-icn u-icn-41 j-flag"></i>
+<a class="btn u-btn u-btn-1 j-flag" href="javascript:void(0)">评论</a>
+<span class="zs s-fc4 j-flag">110/120</span>
+</div>
+</div>
+</textarea>
+<textarea id="m-wgt-subscribe" name="ntp" style="display:none;"><div class="lyct lyct-1 m-favgd f-cb">
+<div class="tit j-flag"><i class="u-icn u-icn-33"></i>新歌单</div>
+<div class="j-flag">
+<div class="u-load s-fc4"><i class="icn"></i> 加载中...</div>
+</div>
+</div>
+</textarea>
+<textarea id="m-wgt-subscribe-item" name="jst" style="display:none;"><ul>
+{list beg..end as y}
+{var x=xlist[y]}
+<li class="xtag {if x.trackCount+size&gt;1000}dis{/if}" data-id="${x.id}">
+<div class="item f-cb">
+<div class="left">
+<a class="avatar" href="javascript:void(0)" target="_blank">
+<img alt="" src="${x.coverImgUrl}?param=40y40">
+{if x.highQuality}<i class="u-jp u-icn2 u-icn2-jp5"></i>{/if}
+</img></a>
+</div>
+<p class="name f-thide"><a class="s-fc0" href="javascript:void(0)" target="_blank">${escape(cutStr(x.name,40))}</a></p>
+<p class="s-fc3">${x.trackCount}首</p>
+</div>
+</li>
+{/list}
+</ul>
+</textarea>
+<textarea id="m-wgt-forward" name="ntp" style="display:none;"><div class="lyct lyct-1 f-cb">
+<div class="m-lyshare">
+<div class="u-txtwrap f-pr">
+<label class="j-flag" style="display: block;">说点什么</label>
+<textarea class="u-txt area j-flag" text="">&lt;/textarea&gt;
+</textarea></div>
+<div class="oper f-cb j-flag">
+<div class="face f-fl f-pr">
+<i class="u-icn u-icn-36 f-fl j-flag"></i>
+<i class="u-icn u-icn-41 j-flag"></i>
+</div>
+<span class="zs f-fr s-fc3 j-flag">140</span>
+</div>
+<div class="btnwrap">
+<a class="u-btn2 u-btn2-2 u-btn2-w2 j-flag" hidefocus="true" href="#"><i>转发</i></a>
+<a class="u-btn2 u-btn2-1 u-btn2-w2 j-flag" hidefocus="true" href="#"><i>取消</i></a>
+</div>
+<div class="j-flag u-err"><i class="u-icn u-icn-25"></i><span></span></div>
+</div>
+</div>
+</textarea>
+<textarea id="m-import-ok" name="ntp" style="display:none;"><div class="lyct f-cb f-tc">
+<p class="f-fs3 f-ff2"><i class="u-icn u-icn-76"></i>  歌曲同步完成</p>
+<div class="lybtn">
+<a class="u-btn2 u-btn2-2 j-flag" hidefocus="true" href="javascript:;"><i>查看我的音乐</i></a>
+</div>
+</div>
+</textarea>
+<textarea id="m-wgt-atlist" name="jst" style="display:none;"> <div class="u-atlist">
+{if suggests.length == 0}
+<p>轻敲空格完成输入</p>
+{else}
+<p>选择最近@的人或直接输入</p>
+{/if}
+<div class="lst">
+{list suggests as suggest}
+<a class="f-thide j-sgt" data-index="${suggest_index}" href="javascript:;">${suggest.nickname}</a>
+{/list}
+</div>
+</div>
+</textarea>
+<textarea id="m-wgt-receiverInput" name="jst" style="display:none;"> <div class="ct f-pr">
+<div class="u-txtwrap f-pr">
+<div class="u-txt txtwrap j-flag">
+{if receiver}
+<div class="blk s-fc3 j-receiver">${receiver.nickname}<a class="cls" href="#" title="删除">×</a></div>
+{/if}
+<span class="holder-parent j-flag" style="float:left">
+<input class="txt j-flag" type="text"/>
+<label class="holder j-flag">选择或输入好友昵称</label>
+</span>
+</div>
+</div>
+<ul class="full j-flag" style="_height:182px;display:none">
+{list users as user}
+<li class="j-item" data-index="${user_index}" data-userid="${user.userId}" data-username="${user.nickname}"><a href="#"><img src="${user.avatarUrl}">${user.nickname}</img></a></li>
+{/list}
+</ul>
+<div class="j-flag" style="position:absolute;left: -1000px;width:auto;"></div>
+</div>
+</textarea>
+<textarea id="m-wgt-receiverList" name="jst" style="display:none;"> {list users as user}
+<li class="j-item" data-index="${user_index}" data-userid="${user.userId}" data-username="${user.nickname}"><a href="#"><img src="${user.avatarUrl}">${user.nickname}</img></a></li>
+{/list}
+</textarea>
+<textarea id="m-wgt-sharewin" name="ntp" style="display:none;"><div class="lyct lyct-1 f-cb">
+<div class="m-lyshare">
+<ul class="m-tabs1 j-flag">
+<li><a href="#"><em>分享给大家</em></a></li>
+<li><a href="#"><em>私信分享</em></a></li>
+</ul>
+<div class="u-err j-flag" style="display:none">最多选择10位好友</div>
+<div class="j-flag"></div>
+<div class="j-slogan"></div>
+<div class="u-txtwrap f-pr">
+<textarea class="u-txt area j-flag" data-action="txt" placeholder="说点什么吧">&lt;/textarea&gt;
+<div class="info f-fs1 f-pr j-flag" data-action="search"></div>
+</textarea></div>
+<div class="oper f-cb">
+<div class="face f-fl f-pr">
+<i class="u-icn u-icn-36 f-fl j-flag" data-action="emot"></i>
+<i class="u-icn u-icn-41 f-fl j-flag" data-action="at"></i>
+<i class="u-icn u-icn-97 j-flag f-pr" data-action="upload" data-default=""></i>
+</div>
+<span class="f-fr s-fc4 j-flag">140/140</span>
+</div>
+<div class="f-cb j-flag"></div>
+<div class="f-cb">
+<div class="btnwrap f-fl">
+<a class="u-btn2 u-btn2-2 u-btn2-w2 j-flag" data-action="share" hidefocus="true" href="#"><i>分享</i></a>
+<a class="u-btn2 u-btn2-1 u-btn2-w2 j-flag" data-action="close" hidefocus="true" href="#"><i>取消</i></a>
+</div>
+<div class="f-cb j-flag f-fr">
+<div class="share f-fr">
+<span class="f-fl s-fc3">同时分享到：</span>
+<ul class="u-logo u-logo-s f-cb">
+<li><a class="u-slg u-slg-sn j-t" data-action="sns" data-type="2" hidefocus="true" href="//music.163.com/api/sns/authorize?snsType=2&amp;clientType=web2&amp;callbackType=Binding&amp;forcelogin=true" title="新浪微博"></a></li>
+<li><a class="u-slg u-slg-db j-t" data-action="sns" data-type="3" hidefocus="true" href="//music.163.com/api/sns/authorize?snsType=3&amp;clientType=web2&amp;callbackType=Binding&amp;forcelogin=true" title="豆瓣网"></a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="u-err j-flag"><i class="u-icn u-icn-25"></i><span></span></div>
+</div>
+</div>
+</textarea>
+<textarea id="m-search-suggest" name="jst" style="display:none;">{macro listArtists(artists)}
+{list artists as art}
+${art.name|mark} 
+{/list}
+{/macro}
+<div class="m-schlist">
+<p class="note s-fc3"><a class="s-fc3 xtag" href="/search/#/?s=${keyword}&amp;type=1002">搜“${keyword|cutStr}” 相关用户</a> &gt;</p>
+<div class="rap">
+{list result.order as index}
+{var lst=result[index]}
+{if !!lst&amp;&amp;!!lst.length}
+<div class="itm f-cb">
+{if index=="songs"}
+<h3 class="hd"><i class="icn u-icn u-icn-26"></i><em class="f-fl">单曲</em></h3>
+<ul class="{if index_index%2!=0}odd{/if} f-cb">
+{list lst as song}
+<li><a class="s-fc0 f-thide xtag" href="/song?id=${song.id}">${song.name|mark}-${listArtists(song.artists)}</a></li>
+{/list}
+</ul>
+{elseif index=="artists"}
+<h3 class="hd"><i class="icn u-icn u-icn-27"></i><em class="f-fl">歌手</em></h3>
+<ul class="{if index_index%2!=0}odd{/if} f-cb">
+{list lst as artist}
+<li><a class="s-fc0 f-thide xtag" href="/artist?id=${artist.id}">${artist.name|mark}</a></li>
+{/list}
+</ul>
+{elseif index=="albums"}
+<h3 class="hd"><i class="icn u-icn u-icn-28"></i><em class="f-fl">专辑</em></h3>
+<ul class="{if index_index%2!=0}odd{/if} f-cb">
+{list lst as album}
+<li><a class="s-fc0 f-thide xtag" href="/album?id=${album.id}">${album.name|mark}{if album.artist}-${album.artist.name|mark}{/if}</a></li>
+{/list}
+</ul>
+{elseif index=="playlists"}
+<h3 class="hd"><i class="icn u-icn u-icn-29"></i><em class="f-fl">歌单</em></h3>
+<ul class="{if index_index%2!=0}odd{/if} f-cb">
+{list lst as playlist}
+<li><a class="s-fc0 f-thide xtag" href="/playlist?id=${playlist.id}">${playlist.name|escape|mark}</a></li>
+{/list}
+</ul>
+{elseif index=="mvs"}
+<h3 class="hd"><i class="icn u-icn u-icn-96"></i><em class="f-fl">MV</em></h3>
+<ul class="{if index_index%2!=0}odd{/if} f-cb">
+{list lst as mv}
+<li><a class="s-fc0 f-thide xtag" href="/mv?id=${mv.id}">${mv.name|escape|mark}{if mv.artistName}-${mv.artistName|escape|mark}{/if}</a></li>
+{/list}
+</ul>
+{/if}
+</div>
+{/if}
+{/list}
+</div>
+</div>
+</textarea>
+<textarea id="m-xwgt-share-infobar" name="jst" style="display:none;"><i class="highlight"></i><div class="text f-fl f-fs1"><p class="f-thide">${info|escape}</p></div>
+{if canChange}<i class="f-fr icn u-icn2 u-icn2-arr"></i>{/if}
+</textarea>
+<textarea id="m-xwgt-share-videobar" name="jst" style="display:none;"><div class="text">
+<img class="cvr f-fl" src="${cover}?imageView&amp;thumbnail=0x40">
+<h3 class="f-thide f-fs1">${name}</h3>
+<p class="f-thide s-fc3">${size}</p>
+</img></div>
+<i class="f-fr icn u-icn2 u-icn2-arr"></i>
+</textarea>
+<textarea id="m-xwgt-share-upload" name="ntp" style="display:none;"> <div class="f-pr choose f-cb">
+<ul class="pics f-pr f-cb j-flag"><li class="f-pr add j-flag u-icn2 u-icn2-addimg" title="添加新图片"></li></ul>
+<div class="f-pa tip s-fc6 j-flag"></div>
+</div>
+</textarea>
+<textarea id="m-xwgt-share-upload-preview" name="jst" style="display:none;"> <li class="pic f-pr{if fail} z-fail{/if}">
+{if !fail}
+<i class="f-img icn"></i>
+{else}
+<div class="mask f-blk f-pa"></div><div class="f-blk f-pa error">${fail}</div>
+{/if}
+<span class="del f-pa u-icn2 u-icn2-delimg" title="删除"></span>
+</li>
+</textarea>
+<textarea id="m-xwgt-share-upload-preview-img" name="jst" style="display:none;">{if !fail}
+<img class="f-img" draggable="false" src="${url}?param=80y80">
+{else}
+<div class="mask f-blk f-pa"></div><div class="f-blk f-pa error">${fail}</div>
+{/if}
+</img></textarea>
+<textarea id="ntp-alert" name="ntp" style="display:none;"><div class="lyct f-cb f-tc">
+<p class="f-fs1">
+<i class="u-icn u-icn-89 j-flag"></i>
+<span class="f-fw1">   <span class="j-flag"></span></span>
+</p>
+<p class="mesg j-flag"> </p>
+<div class="lybtn">
+<a class="u-btn2 u-btn2-2 u-btn2-w2 j-flag" hidefocus="true" href="javascript:;"><i>知道了</i></a>
+</div>
+</div>
+</textarea>
+<textarea id="m-layer-commwin" name="ntp" style="display:none;"><div class="lyct f-tc">
+<p class="j-t"><i class="u-icn u-icn-90"></i></p>
+<p class="j-t msg1"></p>
+</div>
+<div class="j-t lsbtn f-tc">
+<a class="u-btn2 u-btn2-2 u-btn2-w2" hidefocus="true" href="javascript:;"><i>上传节目</i></a>
+</div>
+</textarea>
+<textarea id="m-layer-commwin-btn" name="jst" style="display:none;">{list buttons as item}
+<a !!item.action}data-action="${item.action}" class="u-btn2 ${item.klass} {if item.style}${item.style}{else}u-btn2-w2{/if}" hidefocus="true" href="#" if}="" {="" {if=""><i>${item.text}</i></a>
+{/list}
+</textarea>
+<textarea id="m-layer-outershare" name="ntp" style="display:none;"><div class="lyct lyct-1">
+<ul class="n-outshr f-cb">
+<li>
+<a class="logo wxfrd" data-action="wxfrd" href="#"></a>
+<a class="wd" data-action="wxfrd" href="#">微信</a>
+</li>
+<!--
+<li>
+<a href="#" data-action="wxevt" class="logo wxevt"></a>
+<a href="#" data-action="wxevt" class="wd">微信朋友圈</a>
+</li>
+-->
+<li>
+<a class="logo yxfrd" data-action="yxfrd" href="#"></a>
+<a class="wd" data-action="yxfrd" href="#">易信</a>
+</li>
+<!--
+<li>
+<a href="#" data-action="yxevt" class="logo yxevt"></a>
+<a href="#" data-action="yxevt" class="wd">易信朋友圈</a>
+</li>
+-->
+<li>
+<a class="logo qzone" data-action="qzone" href="#"></a>
+<a class="wd" data-action="qzone" href="#">QQ空间</a>
+</li>
+<li>
+<a class="logo lofte" data-action="lofte" href="#"></a>
+<a class="wd" data-action="lofte" href="#">LOFTER</a>
+</li>
+</ul>
+</div>
+</textarea>
+<textarea id="m-layer-tip" name="ntp" style="display:none;"><div class="lyct f-cb f-tc">
+<div class="f-fs1 j-flag">message</div>
+<div class="lybtn">
+<a class="u-btn2 u-btn2-2 u-btn2-w2 j-flag" hidefocus="true" href="javascript:;"><i>知道了</i></a>
+</div>
+</div>
+</textarea>
+<textarea id="m-outshare-layer" name="ntp" style="display:none;"><div class="lyct lyct-1 f-cb">
+<ul class="m-shareto f-cb j-flag">
+<li class="fst" data-action="sn" data-type="2">
+<a class="logo logo-sn" href="#"></a>
+<a class="wd s-fc3" href="#">新浪微博</a>
+</li>
+<li data-action="tx" data-type="6" style="display:none;">
+<a class="logo logo-tc" href="#"></a>
+<a class="wd s-fc3" href="#">腾讯微博</a>
+</li>
+<li data-action="db" data-type="3">
+<a class="logo logo-db" href="#"></a>
+<a class="wd s-fc3" href="#">豆瓣</a>
+</li>
+</ul>
+</div>
+</textarea></div>
+</body>

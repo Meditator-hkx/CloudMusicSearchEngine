@@ -1,6 +1,7 @@
 import threading
 import time
 
+
 class MyThread(threading.Thread):
     def __init__(self, id, name, counter, artist):
         threading.Thread.__init__(self)
