@@ -72,15 +72,18 @@ if __name__ == '__main__':
     # Stopped at id 12867 on Friday, 2017-4-21
     # Stopped at id 15877 on Friday, 2017-4-21
     # Stopped at id 16938 on Friday, 2017-4-21
+    # Stopped at id 17047 on Friday, 2017-4-21
+    # Stopped at id 35343 on Saturday, 2017-4-22
+    # try: 40000
     for artist_id in artists:
         artist_id = int(artist_id[0])
-        if artist_id < 16938:
+        if artist_id < 34517:
             continue
         print 'Crawing album info for artist with id %d' % artist_id
         album_obj.craw(artist_id)
         sleep_flag += 1
-        # When every 100 artists' album information is crawed, sleep for random seconds in (0, 10)
-        if sleep_flag % 100 == 0:
+        # When every 10 artists' album information is crawed, sleep for random seconds in (0, 10)
+        if sleep_flag % 10 == 0:
             print 'Sleep random seconds before next 100 artists album crawing\n'
-            time.sleep(np.random.randint(0, 10))
+            time.sleep(np.random.randint(0, 5))
     album_obj.sql_obj.close()

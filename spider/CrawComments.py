@@ -5,14 +5,18 @@ Craw all comments info based on the music id obtained in CrawMusic.py
 Update informantion for TABLE musics with 
 """
 
-import sqlite3
-import threading
 import time
 import numpy as np
 
 import requests
 
 from sql import sql
+import json
+from Utilization import encrypt_func as enf
+
+BASE_URL = 'http://music.163.com/'
+COMMENT_THRESHOLD = 10000
+_session = requests.Session()
 
 
 class Comment(object):
@@ -40,14 +44,45 @@ class Comment(object):
         }
         self.sql_obj = sql.SQL()
 
-        self.proxies = {'http': 'http://127.0.0.1:10800'}
+        # self.proxies = {'http': 'http://127.0.0.1:10800'}
 
     def craw(self, music_id):
-        r = requests.post('http://music.163.com/weapi/v1/resource/comments/R_SO_4_' + str(music_id),
-                          headers=self.headers, params=self.params, data=self.data)
+        hot_comments = self.get_hot_comments(music_id) # format: comments support_number
+        for item in hot_comments:
+            comment = item[0]
+            support = item[1]
+            try:
+                comment_obj.sql_obj.insert_comments(music_id, comment, support)
+            except Exception as e:
+                print e, "Error when inserting data to database"
+            # print comment, support
 
-        # Store comment info into TABLE comments
-        print 'Store info into TABLE comments'
+    def get_hot_comments(self, music_id, threshold=COMMENT_THRESHOLD):
+        """
+        输入歌曲id，返回该歌曲的前threshold个热门评论。
+
+        :param song_id: 歌曲id，string类型和int类型均可，例如35403523
+        :param threshold: 前threshold个热门评论
+        :return: 返回一个list，每个子元素也是list，其中第一项为评论内容，第二项为点赞数。
+        例如： [[u'\u4e24\u5929\u524d \u9648\u5955\u8fc5\u5728\u58a8\u5c14\u672c\u5f00\u6f14\u5531\u4f1a \u5b89\u4e1c\u5c3c\u53d1\u5fae\u535a\u8bf4\u4ed6\u5728\u53f0\u4e0b\u542c\u7684\u611f\u6168\u4e07\u5206 \u5c31\u50cf\u505a\u4e86\u4e00\u573a\u68a6 \u4ed6\u7ec8\u4e8e\u5b8c\u6210\u4e86\u81ea\u5df1\u7684\u68a6 \u81ea\u5df1\u559c\u6b22\u7684\u6b4c\u624b\u4e3a\u4ed6\u7684\u4e66\u5531\u7684\u4e3b\u9898\u66f2 \u4f60\u6709\u68a6\u60f3\u4f60\u5c31\u8981\u634d\u536b\u5b83~', 64520],...]
+        """
+        url = BASE_URL + 'weapi/v1/resource/comments/R_SO_4_{}?csrf_token='.format(music_id)
+        headers = {'Cookie': 'appver=1.5.0.75771;', 'Referer': 'http://music.163.com/song?id={}'.format(music_id)}
+
+        text = json.dumps(enf.TEXT)
+        sec_key = enf.create_secret_key(16)
+        enc_text = enf.aes_encrypt(enf.aes_encrypt(text, enf.NONCE), sec_key)
+        enc_sec_key = enf.rsa_encrypt(sec_key, enf.PUBKEY, enf.MODULUS)
+        data = {'params': enc_text, 'encSecKey': enc_sec_key}
+        req = requests.post(url, headers=headers, data=data)
+        data = json.loads(req.content)['hotComments']
+        print data
+
+        res = []
+        for item in data:
+            res.append([item['content'], item['likedCount']])
+
+        return res[:threshold]
 
 if __name__ == '__main__':
     comment_obj = Comment()

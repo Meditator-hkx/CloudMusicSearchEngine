@@ -67,3 +67,5 @@ if __name__ == '__main__':
             print 'Sleep 10 seconds before next group crawing\n'
 
             time.sleep(10)
+
+    art_obj.sql_obj.close()

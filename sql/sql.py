@@ -7,7 +7,7 @@ import sqlite3
 
 class SQL(object):
     def __init__(self):
-        self.connection = sqlite3.connect('test.db')
+        self.connection = sqlite3.connect('cloudmusic.db')
         self.cursor = self.connection.cursor()
         self.connection.text_factory = str
 

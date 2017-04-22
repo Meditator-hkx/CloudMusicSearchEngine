@@ -9,12 +9,10 @@ import requests
 from bs4 import BeautifulSoup
 import time
 from sql import sql
-from prepare import encrypt_func as ec
+from Utilization import encrypt_func as ec
 import re
 import numpy as np
 import json
-
-BASE_URL = 'http://music.163.com/'
 
 
 class Music(object):
@@ -49,8 +47,10 @@ class Music(object):
         music_number_info = body.find_all('span', attrs={'class': 'sub s-fc3'})
         # Update the number of TABLE album
         try:
-            music_number_str = music_number_info[0].replace(u'首歌', '')
-            music_number = int(music_number_str)
+            music_number_str = music_number_info[0]
+            music_number_short_str = re.findall(r'sub s-fc3.+>(.+?)</span>',str(music_number_str))[0]
+            print music_number_short_str, type(music_number_short_str)
+            music_number = int(music_number_short_str.replace(str('首歌'), ''))
             self.sql_obj.update_album(album_id, music_number)
         except Exception as e:
             print e, 'Update album info failed!\n'
@@ -58,23 +58,26 @@ class Music(object):
         musics = body.find_all('ul', attrs={'class': 'f-hide'})
         # Store info into TABLE music
         for music in musics:
-            music_id = music['href'].replace('/song?id=', '')
-
+            print music, type(music)
             try:
+                # music id
+                print str(music)
+                music_id_short_str = music.find_all('a')[0]['href']
+                music_id_final_str = music_id_short_str.replace('/song?id=', '')
+                music_id = int(music_id_final_str)
+                # music lyrics
+                lyrics = self.get_lyric(music_id)
+                # music name
                 music_name = re.findall(r'/song.+>(.+?)</a>', str(music))
                 music_name = music_name[0]
-                lyrics = 'Not Crawed Yet'
-                self.sql_obj.insert_music(music_id, music_name, album_id)
+                self.sql_obj.insert_music(music_id, music_name, album_id, lyrics)
             except Exception as e:
-                print e
+                print e, "Error getting music_id | music_name | lyrics \n"
 
-    def get_lyric(music_id):
-        '''
-        输入歌曲id，返回歌曲的歌词
-        :param song_id: 
-        :return: 
-        '''
-        # url = 'http://music.163.com/song?id={}'.format(song_id)
+    def get_lyric(self, music_id):
+        """
+        Input music id, return lyrics of such a music
+        """
         lyric_url = 'http://music.163.com/api/song/lyric?os=osx&id={}&lv=-1&kv=-1&tv=-1'.format(music_id)
         headers = {'Cookie': 'appver=1.5.0.75771;', 'Referer': 'http://music.163.com/song?id={}'.format(music_id)}
         # text = json.dumps(ec.TEXT)
@@ -83,7 +86,7 @@ class Music(object):
         # enc_sec_key = ec.rsa_encrypt(sec_key, ec.PUBKEY, ec.MODULUS)
         # data = {'params': enc_text, 'encSecKey': enc_sec_key}
         req = requests.post(lyric_url, headers=headers)
-        return req.content
+        return str(req.content)
 
 if __name__ == '__main__':
     music_obj = Music()
@@ -96,6 +99,6 @@ if __name__ == '__main__':
         # When every 100 albums' music information is crawed, sleep for random seconds in (0, 10)
         sleep_flag += 1
         if sleep_flag % 100 == 0:
-            print 'Sleep random seconds before next 100 music comments crawing\n'
-            time.sleep(np.random.randint(0, 10))
+            print 'Sleep random seconds before next 100 albums music information crawing\n'
+            time.sleep(np.random.randint(5, 10))
     music_obj.sql_obj.close()
