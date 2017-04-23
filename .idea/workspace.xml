@@ -2,20 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="397403ad-bfeb-497e-81c8-9577df1e71e6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/kaixin.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/prepare/artist.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/prepare/artist_craw.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/prepare/artist_id.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/prepare/artist_info.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sql/sql_test.py" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/prepare/__init__.py" afterPath="$PROJECT_DIR$/Utilization/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/prepare/craw_utilizer.py" afterPath="$PROJECT_DIR$/Utilization/craw_utilizer.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/prepare/encrypt_func.py" afterPath="$PROJECT_DIR$/Utilization/encrypt_func.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spider/CrawAlbum.py" afterPath="$PROJECT_DIR$/spider/CrawAlbum.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spider/CrawArtist.py" afterPath="$PROJECT_DIR$/spider/CrawArtist.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spider/CrawComments.py" afterPath="$PROJECT_DIR$/spider/CrawComments.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spider/CrawMusic.py" afterPath="$PROJECT_DIR$/spider/CrawMusic.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spider/cloudmusic.db" afterPath="$PROJECT_DIR$/spider/cloudmusic.db" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sql/sql.py" afterPath="$PROJECT_DIR$/sql/sql.py" />
@@ -36,8 +22,8 @@
       <file leaf-file-name="CrawArtist.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spider/CrawArtist.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="48" column="30" lean-forward="true" selection-start-line="48" selection-start-column="30" selection-end-line="48" selection-end-column="30" />
+            <state relative-caret-position="157">
+              <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
               <folding>
                 <element signature="e#16#31#0" expanded="true" />
               </folding>
@@ -45,11 +31,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CrawAlbum.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CrawAlbum.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spider/CrawAlbum.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="76" column="16" lean-forward="true" selection-start-line="76" selection-start-column="16" selection-end-line="76" selection-end-column="16" />
+            <state relative-caret-position="142">
+              <caret line="77" column="29" lean-forward="true" selection-start-line="77" selection-start-column="29" selection-end-line="77" selection-end-column="29" />
               <folding>
                 <element signature="e#235#250#0" expanded="true" />
               </folding>
@@ -60,18 +46,18 @@
       <file leaf-file-name="sql.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sql/sql.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="127" column="1" lean-forward="true" selection-start-line="127" selection-start-column="1" selection-end-line="127" selection-end-column="1" />
+            <state relative-caret-position="118">
+              <caret line="20" column="87" lean-forward="true" selection-start-line="20" selection-start-column="87" selection-end-line="20" selection-end-column="87" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CrawMusic.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CrawMusic.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spider/CrawMusic.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+            <state relative-caret-position="-308">
+              <caret line="64" column="31" lean-forward="true" selection-start-line="64" selection-start-column="31" selection-end-line="64" selection-end-column="31" />
               <folding>
                 <element signature="e#162#177#0" expanded="true" />
               </folding>
@@ -82,7 +68,7 @@
       <file leaf-file-name="CrawComments.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spider/CrawComments.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="91">
+            <state relative-caret-position="231">
               <caret line="93" column="7" lean-forward="false" selection-start-line="93" selection-start-column="7" selection-end-line="93" selection-end-column="7" />
               <folding>
                 <element signature="e#138#149#0" expanded="true" />
@@ -106,12 +92,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/spider/CrawArtist.py" />
-        <option value="$PROJECT_DIR$/sql/sql.py" />
-        <option value="$PROJECT_DIR$/spider/CrawMusic.py" />
         <option value="$PROJECT_DIR$/prepare/encrypt_func.py" />
         <option value="$PROJECT_DIR$/prepare/craw_utilizer.py" />
         <option value="$PROJECT_DIR$/spider/CrawComments.py" />
         <option value="$PROJECT_DIR$/spider/CrawAlbum.py" />
+        <option value="$PROJECT_DIR$/spider/CrawMusic.py" />
+        <option value="$PROJECT_DIR$/sql/sql.py" />
       </list>
     </option>
   </component>
@@ -158,6 +144,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CloudMusicSearchEngine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CloudMusicSearchEngine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sql" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -193,7 +193,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.CrawAlbum">
+  <component name="RunManager" selected="Python.CrawMusic">
     <configuration default="false" name="CrawArtist" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -357,10 +357,10 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.CrawAlbum" />
-        <item index="1" class="java.lang.String" itemvalue="Python.CrawComments" />
-        <item index="2" class="java.lang.String" itemvalue="Python.craw_utilizer" />
-        <item index="3" class="java.lang.String" itemvalue="Python.CrawMusic" />
+        <item index="0" class="java.lang.String" itemvalue="Python.CrawMusic" />
+        <item index="1" class="java.lang.String" itemvalue="Python.CrawAlbum" />
+        <item index="2" class="java.lang.String" itemvalue="Python.CrawComments" />
+        <item index="3" class="java.lang.String" itemvalue="Python.craw_utilizer" />
         <item index="4" class="java.lang.String" itemvalue="Python.CrawArtist" />
       </list>
     </recent_temporary>
@@ -388,13 +388,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="55" y="-4" width="969" height="772" extended-state="6" />
+    <frame x="55" y="-4" width="969" height="772" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24148607" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29562595" sideWeight="0.503612" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32880846" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29562595" sideWeight="0.49638802" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29562595" sideWeight="0.49638802" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -416,11 +417,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/spider/CrawMusic.py</url>
-          <line>66</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Utilization/craw_utilizer.py</url>
           <line>228</line>
@@ -468,16 +464,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spider/CrawArtist.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="48" column="30" lean-forward="true" selection-start-line="48" selection-start-column="30" selection-end-line="48" selection-end-column="30" />
-          <folding>
-            <element signature="e#16#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testset/album-music.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="367">
@@ -491,7 +477,7 @@
         <state relative-caret-position="-429">
           <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
           <folding>
-            <element signature="e#17#26#0" expanded="true" />
+            <element signature="e#17#26#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -506,9 +492,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/spider/CrawAlbum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="77" column="29" lean-forward="true" selection-start-line="77" selection-start-column="29" selection-end-line="77" selection-end-column="29" />
+          <folding>
+            <element signature="e#235#250#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider/CrawArtist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+          <folding>
+            <element signature="e#16#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/spider/CrawComments.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
+        <state relative-caret-position="231">
           <caret line="93" column="7" lean-forward="false" selection-start-line="93" selection-start-column="7" selection-end-line="93" selection-end-column="7" />
           <folding>
             <element signature="e#138#149#0" expanded="true" />
@@ -516,30 +522,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spider/CrawMusic.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
-          <folding>
-            <element signature="e#162#177#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sql/sql.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="127" column="1" lean-forward="true" selection-start-line="127" selection-start-column="1" selection-end-line="127" selection-end-column="1" />
+        <state relative-caret-position="118">
+          <caret line="20" column="87" lean-forward="true" selection-start-line="20" selection-start-column="87" selection-end-line="20" selection-end-column="87" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spider/CrawAlbum.py">
+    <entry file="file://$PROJECT_DIR$/spider/CrawMusic.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="76" column="16" lean-forward="true" selection-start-line="76" selection-start-column="16" selection-end-line="76" selection-end-column="16" />
+        <state relative-caret-position="-308">
+          <caret line="64" column="31" lean-forward="true" selection-start-line="64" selection-start-column="31" selection-end-line="64" selection-end-column="31" />
           <folding>
-            <element signature="e#235#250#0" expanded="true" />
+            <element signature="e#162#177#0" expanded="true" />
           </folding>
         </state>
       </provider>

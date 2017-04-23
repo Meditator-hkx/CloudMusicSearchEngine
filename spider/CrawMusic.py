@@ -19,7 +19,7 @@ class Music(object):
     def __init__(self):
         self.sql_obj = sql.SQL()
         # self.base_url_api = 'http://music.163.com/api/song/lyric?os=osx&id={}&lv=-1&kv=-1&tv=-1'.format(music_id)
-        self.base_url_api = 'http://music.163.com/album/'
+        self.base_url = 'http://music.163.com/album/'
         self.headers = {
             'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
             'Accept-Encoding': 'gzip, deflate, sdch',
@@ -37,7 +37,7 @@ class Music(object):
 
     def craw(self, album_id):
         params = {'id': album_id, 'limit': '200'}
-        r= requests.get(self.base_url_api, headers=self.headers, params=params)
+        r= requests.get(self.base_url, headers=self.headers, params=params)
 
         # Parse content
         soup = BeautifulSoup(r.content, 'html.parser')
@@ -94,7 +94,9 @@ if __name__ == '__main__':
     sleep_flag = 0
     for album_id in albums:
         album_id = int(album_id[0])
-        print 'Crawing comment info for music with id %d' % album_id
+        if album_id < 5973:
+            continue
+        print 'Crawing music info for album with id %d' % album_id
         music_obj.craw(album_id)
         # When every 100 albums' music information is crawed, sleep for random seconds in (0, 10)
         sleep_flag += 1

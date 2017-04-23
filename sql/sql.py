@@ -16,9 +16,9 @@ class SQL(object):
         self.cursor.execute(sql_command, (artist_id, artist_name, artist_info))
         self.connection.commit()
 
-    def insert_music(self, music_id, music_name, album_id, music_lyric = 'None', comment_number = 0):
-        sql_command = "INSERT INTO musics VALUES (?, ?, ?, ?, ?)"
-        self.cursor.execute(sql_command, (music_id, music_name, album_id, music_lyric, comment_number))
+    def insert_music(self, music_id, music_name, album_id, music_lyric = 'None'):
+        sql_command = "INSERT INTO musics VALUES (?, ?, ?, ?)"
+        self.cursor.execute(sql_command, (music_id, music_name, album_id, music_lyric))
         self.connection.commit()
 
     def insert_album(self, album_id, album_name, artist_id, music_number=10):
