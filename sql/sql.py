@@ -1,6 +1,6 @@
 # coding:utf-8
 
-# Use sqlite3 package to store the data in test.db
+# Use sqlite3 package to store the data in .db
 
 import sqlite3
 
@@ -16,9 +16,9 @@ class SQL(object):
         self.cursor.execute(sql_command, (artist_id, artist_name, artist_info))
         self.connection.commit()
 
-    def insert_music(self, music_id, music_name, album_id, music_lyric = 'None'):
-        sql_command = "INSERT INTO musics VALUES (?, ?, ?, ?)"
-        self.cursor.execute(sql_command, (music_id, music_name, album_id, music_lyric))
+    def insert_music(self, music_id, music_name, album_id, music_lyric = 'None', comment_number = 0):
+        sql_command = "INSERT INTO musics VALUES (?, ?, ?, ?, ?)"
+        self.cursor.execute(sql_command, (music_id, music_name, album_id, music_lyric, comment_number))
         self.connection.commit()
 
     def insert_album(self, album_id, album_name, artist_id, music_number=10):
@@ -49,6 +49,11 @@ class SQL(object):
     def update_album(self, album_id, music_number):
         sql_command = "UPDATE albums SET MUSIC_NUMBER = ? WHERE ALBUM_ID = ?"
         self.cursor.execute(sql_command, (music_number, album_id))
+        self.connection.commit()
+
+    def update_music(self, music_id, comment_number):
+        sql_command = "UPDATE musics SET COMMENT_NUMBER = ? WHERE MUSIC_ID = ?"
+        self.cursor.execute(sql_command, (comment_number, music_id))
         self.connection.commit()
 
     def close(self):
