@@ -7,7 +7,6 @@ Update informantion for TABLE musics with
 
 import time
 import numpy as np
-
 import requests
 
 from sql import sql
@@ -15,7 +14,7 @@ import json
 from Utilization import encrypt_func as enf
 
 BASE_URL = 'http://music.163.com/'
-COMMENT_THRESHOLD = 10000
+COMMENT_THRESHOLD = 10
 _session = requests.Session()
 
 
@@ -47,14 +46,17 @@ class Comment(object):
         # self.proxies = {'http': 'http://127.0.0.1:10800'}
 
     def craw(self, music_id):
-        hot_comments = self.get_hot_comments(music_id) # format: comments support_number
-        for item in hot_comments:
-            comment = item[0]
-            support = item[1]
-            try:
-                comment_obj.sql_obj.insert_comments(music_id, comment, support)
-            except Exception as e:
-                print e, "Error when inserting data to database"
+        hot_comments = self.get_hot_comments(music_id) # Return only comment number now ...
+        print hot_comments, music_id
+        comment_number = hot_comments
+        self.sql_obj.update_music(music_id, comment_number)
+        # for item in hot_comments:
+        #     try:
+        #         comment = item[0]
+        #         support = item[1]
+        #         comment_obj.sql_obj.insert_comments(music_id, comment, support)
+        #     except Exception as e:
+        #         print e, "Error when inserting data to database"
             # print comment, support
 
     def get_hot_comments(self, music_id, threshold=COMMENT_THRESHOLD):
@@ -75,14 +77,17 @@ class Comment(object):
         enc_sec_key = enf.rsa_encrypt(sec_key, enf.PUBKEY, enf.MODULUS)
         data = {'params': enc_text, 'encSecKey': enc_sec_key}
         req = requests.post(url, headers=headers, data=data)
-        data = json.loads(req.content)['hotComments']
-        print data
-
-        res = []
-        for item in data:
-            res.append([item['content'], item['likedCount']])
-
-        return res[:threshold]
+        try:
+            comment_number = json.loads(req.content)['total']
+            # data = json.loads(req.content)['hotComments']
+            # res = []
+            # for item in data:
+            #     res.append([item['content'], item['likedCount']])
+            # print len(res)
+            return comment_number      #, res[:threshold] # return total comment number and hot comments (limited by THRESHOLD)
+        except Exception as e:
+            print e
+            return []
 
 if __name__ == '__main__':
     comment_obj = Comment()
@@ -90,9 +95,11 @@ if __name__ == '__main__':
     sleep_flag = 0
     for music_id in musics:
         music_id = int(music_id[0])
+        # if music_id < 1868421: # Stopped at music id 1868421
+        #     continue
         print 'Crawing comment info for music with id %d' % music_id
         comment_obj.craw(music_id)
-        # When every 100 artists' album information is crawed, sleep for random seconds in (0, 10)
+        # When every 100 musics' information is crawed, sleep for random seconds in (0, 10)
         sleep_flag += 1
         if sleep_flag % 100 == 0:
             print 'Sleep random seconds before next 100 music comments crawing\n'

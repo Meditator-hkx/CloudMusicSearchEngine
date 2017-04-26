@@ -94,7 +94,7 @@ if __name__ == '__main__':
     sleep_flag = 0
     for album_id in albums:
         album_id = int(album_id[0])
-        if album_id < 5973:
+        if album_id < 34496827: # 34496827
             continue
         print 'Crawing music info for album with id %d' % album_id
         music_obj.craw(album_id)
