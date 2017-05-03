@@ -9,7 +9,7 @@ import time
 import numpy as np
 import requests
 
-from sql import sql
+from sql import sql_craw
 import json
 from Utilization import encrypt_func as enf
 
@@ -41,7 +41,7 @@ class Comment(object):
             'params': 'Ak2s0LoP1GRJYqE3XxJUZVYK9uPEXSTttmAS+8uVLnYRoUt/Xgqdrt/13nr6OYhi75QSTlQ9FcZaWElIwE+oz9qXAu87t2DHj6Auu+2yBJDr+arG+irBbjIvKJGfjgBac+kSm2ePwf4rfuHSKVgQu1cYMdqFVnB+ojBsWopHcexbvLylDIMPulPljAWK6MR8',
             'encSecKey': '8c85d1b6f53bfebaf5258d171f3526c06980cbcaf490d759eac82145ee27198297c152dd95e7ea0f08cfb7281588cdab305946e01b9d84f0b49700f9c2eb6eeced8624b16ce378bccd24341b1b5ad3d84ebd707dbbd18a4f01c2a007cd47de32f28ca395c9715afa134ed9ee321caa7f28ec82b94307d75144f6b5b134a9ce1a'
         }
-        self.sql_obj = sql.SQL()
+        self.sql_obj = sql_craw.SQL()
 
         # self.proxies = {'http': 'http://127.0.0.1:10800'}
 
@@ -49,7 +49,13 @@ class Comment(object):
         hot_comments = self.get_hot_comments(music_id) # Return only comment number now ...
         print hot_comments, music_id
         comment_number = hot_comments
-        self.sql_obj.update_music(music_id, comment_number)
+        try:
+            comment_number = int(comment_number)
+            self.sql_obj.update_music(music_id, comment_number)
+        except Exception as e:
+            print e
+            self.sql_obj.update_music(music_id, 0)
+            pass
         # for item in hot_comments:
         #     try:
         #         comment = item[0]
@@ -95,8 +101,8 @@ if __name__ == '__main__':
     sleep_flag = 0
     for music_id in musics:
         music_id = int(music_id[0])
-        # if music_id < 1868421: # Stopped at music id 1868421
-        #     continue
+        if music_id < 164840: # Stopped at music id 1868421
+            continue
         print 'Crawing comment info for music with id %d' % music_id
         comment_obj.craw(music_id)
         # When every 100 musics' information is crawed, sleep for random seconds in (0, 10)

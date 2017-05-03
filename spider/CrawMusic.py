@@ -8,7 +8,7 @@ Obtain all music ids, names, lyrics, comment numbers in this page
 import requests
 from bs4 import BeautifulSoup
 import time
-from sql import sql
+from sql import sql_craw
 from Utilization import encrypt_func as ec
 import re
 import numpy as np
@@ -17,7 +17,7 @@ import json
 
 class Music(object):
     def __init__(self):
-        self.sql_obj = sql.SQL()
+        self.sql_obj = sql_craw.SQL()
         # self.base_url_api = 'http://music.163.com/api/song/lyric?os=osx&id={}&lv=-1&kv=-1&tv=-1'.format(music_id)
         self.base_url = 'http://music.163.com/album/'
         self.headers = {
@@ -72,6 +72,7 @@ class Music(object):
                 music_name = music_name[0]
                 self.sql_obj.insert_music(music_id, music_name, album_id, lyrics)
             except Exception as e:
+                self.sql_obj.update_music(music_id, lyrics)
                 print e, "Error getting music_id | music_name | lyrics \n"
 
     def get_lyric(self, music_id):

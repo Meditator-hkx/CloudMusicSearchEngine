@@ -9,14 +9,14 @@ Craw album information based on the artist id obtained in CrawArtist.py
 import requests
 import re
 from bs4 import BeautifulSoup
-from sql import sql
+from sql import sql_craw
 import time
 import numpy as np
 
 
 class Album(object):
     def __init__(self):
-        self.sql_obj = sql.SQL()
+        self.sql_obj = sql_craw.SQL()
         self.base_url = 'http://music.163.com/artist/album'
         self.headers = {
             'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',

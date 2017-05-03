@@ -4,7 +4,7 @@ import re
 from bs4 import BeautifulSoup
 import time
 import os
-from sql import sql
+from sql import sql_craw
 
 
 class Artist(object):
@@ -31,7 +31,7 @@ class Artist(object):
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36'
         }
         self.base_url = 'http://music.163.com/discover/artist/cat'
-        self.sql_obj = sql.SQL()
+        self.sql_obj = sql_craw.SQL()
 
     def craw(self, group_id, offset):
         params = {'id': group_id, 'initial': offset}
