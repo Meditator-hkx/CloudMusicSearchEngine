@@ -7,7 +7,7 @@ import sqlite3
 
 class SQL(object):
     def __init__(self):
-        self.connection = sqlite3.connect('cloudmusic.db')
+        self.connection = sqlite3.connect('newmusic.db')
         self.cursor = self.connection.cursor()
         self.connection.text_factory = str
 
@@ -19,6 +19,11 @@ class SQL(object):
     def insert_music(self, music_id, music_name, album_id, music_lyric = 'None', comment_number = 0):
         sql_command = "INSERT INTO musics VALUES (?, ?, ?, ?, ?)"
         self.cursor.execute(sql_command, (music_id, music_name, album_id, music_lyric, comment_number))
+        self.connection.commit()
+
+    def insert_music_new(self, music_id, music_name, album_name, artist_name, lyrics, mp3_name, comment_number, lyric_name):
+        sql_command = "INSERT INTO MUSICS VALUES (?, ?, ?, ?, ?, ?, ?, ? )"
+        self.cursor.execute(sql_command, (music_id, music_name, album_name, artist_name, lyrics, mp3_name, comment_number, lyric_name))
         self.connection.commit()
 
     def insert_album(self, album_id, album_name, artist_id, music_number=10):
@@ -54,6 +59,11 @@ class SQL(object):
     def update_music(self, music_id, comment_number):
         sql_command = "UPDATE musics SET COMMENT_NUMBER = ? WHERE MUSIC_ID = ?"
         self.cursor.execute(sql_command, (comment_number, music_id))
+        self.connection.commit()
+
+    def update_music_lyrics(self, music_id, lyrics):
+        sql_command = "UPDATE musics SET LYRICS = ? WHERE MUSIC_ID = ?"
+        self.cursor.execute(sql_command, (lyrics, music_id))
         self.connection.commit()
 
     def close(self):
