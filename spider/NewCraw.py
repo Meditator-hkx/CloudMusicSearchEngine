@@ -46,52 +46,60 @@ class Crawler(object):
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36'
         }
         self.base_url = 'http://music.163.com/discover/artist/cat'
+        self.artist_url = 'http://music.163.com/artist?id='
         self.album_url = 'http://music.163.com/artist/album'
         self.music_url = 'http://music.163.com/album/'
         self.sql_obj = sql_craw.SQL()
         self.fhand = open('music_download.txt', 'w')
         self.count = 0
+        self.break_number = 688
 
-    def craw(self, group_id, offset):
+    def craw(self, group_id):
         # Step 1: craw artist
-        artists = self.craw_artist(group_id, offset)
-        for artist in artists[0:11]:
+        stop_count = 1732
+
+        artists = self.craw_artist(group_id)
+        for artist in artists: # 100 artiststs
             artist_id = artist['href'].replace('/artist?id=', '').strip()
             artist_name = artist['title'].replace(u'的音乐', '')
             print 'artist info: ', artist_id, artist_name
 
-            # Step 2: craw album
-            albums = self.craw_album(artist_id)
-            for album in albums[0:11]:
-                album_id = album['href'].replace('/album?id=', '')
-                album_name = re.findall(r'/album.+>(.+?)</a>', str(album))
-                album_name = album_name[0]
-                print 'album info: ', album_id, album_name
+            # Step 2: Craw 50 hot musics
+            hot_musics = self.craw_hot_musics(artist_id)
+            print hot_musics
+            for musics in hot_musics:
+                stop_count -= 1
+                if stop_count > 0:
+                    continue
+                # music id
+                print str(musics)
+                music_short_str = musics.find_all('a')
+                print music_short_str
+                for music_short in music_short_str:
+                    print music_short
 
-                # Step3: get musics
-                musics = self.craw_music(album_id)
-                for music in musics:
                     # music id
-                    print str(music)
-                    music_id_short_str = music.find_all('a')[0]['href']
-                    music_id_final_str = music_id_short_str.replace('/song?id=', '')
+                    music_id_final_str = music_short['href'].replace('/song?id=', '')
                     music_id = int(music_id_final_str)
+
+                    # music name
+                    music_name = re.findall(r'/song.+>(.+?)</a>', str(music_short))
+                    music_name = music_name[0]
 
                     # music lyrics
                     lyrics = self.get_lyric(music_id)
 
-                    # music name
-                    music_name = re.findall(r'/song.+>(.+?)</a>', str(music))
-                    music_name = music_name[0]
+                    # album name
+                    album_name = 'Ignored'
 
                     # comment number
                     comment_number = self.get_comment_number(music_id)
 
                     # mp3 file name
-                    mp3_name = artist_name +  u'_' + music_name + u'.mp3'
+                    mp3_name = artist_name + u'_' + music_name + u'.mp3'
 
                     # lyric name
-                    lyric_name = artist_name +  u'_' + music_name + u'.lrc'
+                    lyric_name = artist_name + u'_' + music_name + u'.lrc'
 
                     print 'music_info: ', music_id, music_name, mp3_name, comment_number
 
@@ -99,18 +107,35 @@ class Crawler(object):
                     to_write = 'http://music.163.com/song?id=' + str(music_id)
                     self.fhand.write(to_write)
                     self.fhand.write('\n')
+                    self.fhand.flush()
+
                     # Insert into database
                     try:
-                        self.sql_obj.insert_music_new(music_id, music_name, album_name, artist_name, lyrics, mp3_name, comment_number, lyric_name)
+                        self.sql_obj.insert_music_new(music_id, music_name, album_name, artist_name, lyrics, mp3_name,
+                                                      comment_number, lyric_name)
                     except Exception as e:
                         print e
                     finally:
                         self.count += 1
-                        if self.count % 100 == 0:
-                            time.sleep(np.random.randint(5, 10))
+                        print 'Current crawing time is: ', self.count
+                        if self.count % 50 == 0:
+                            time.sleep(np.random.randint(0,60))
 
-    def craw_artist(self, group_id, offset):
-        params = {'id': group_id, 'initial': offset}
+            # # Step 2: craw album
+            # albums = self.craw_album(artist_id)
+            # for album in albums[0:11]:
+            #     album_id = album['href'].replace('/album?id=', '')
+            #     album_name = re.findall(r'/album.+>(.+?)</a>', str(album))
+            #     album_name = album_name[0]
+            #     print 'album info: ', album_id, album_name
+            #
+            #     # Step3: get musics
+            #     musics = self.craw_music(album_id)
+
+
+
+    def craw_artist(self, group_id):
+        params = {'id': group_id}
         r = requests.get(self.base_url, headers=self.headers, params=params)
 
         # Parse content
@@ -120,7 +145,7 @@ class Crawler(object):
         # hot_artists = body.find_all('a', attrs={'class': 'msk'})
         artists = body.find_all('a', attrs={'class': 'nm nm-icn f-thide s-fc0'})
         count = len(artists)
-        print 'Crawing 10 artists info this time ...\n'
+        print 'Crawing 100 artists info this time ...\n'
         return artists
 
     def craw_album(self, artist_id):
@@ -144,6 +169,17 @@ class Crawler(object):
         musics = body.find_all('ul', attrs={'class': 'f-hide'})
         return musics
 
+    def craw_hot_musics(self, artist_id):
+        artist_music_url = self.artist_url + str(artist_id)
+        r = requests.get(artist_music_url, headers = self.headers)
+
+        # Parse content
+        soup = BeautifulSoup(r.content, 'html.parser')
+        body = soup.body
+
+        # Obtain music number for each album
+        musics = body.find_all('ul', attrs={'class': 'f-hide'})
+        return musics
 
     def get_lyric(self, music_id):
         lyric_url = 'http://music.163.com/api/song/lyric?os=osx&id={}&lv=-1&kv=-1&tv=-1'.format(music_id)
@@ -181,7 +217,7 @@ if __name__ == '__main__':
 
         for offset in offset_set:
             print 'Crawing in group %d, offset %d' % (group_id, offset)
-            craw_obj.craw(group_id, offset)
+            craw_obj.craw(group_id)
 
     craw_obj.sql_obj.close()
     craw_obj.fhand.close()
