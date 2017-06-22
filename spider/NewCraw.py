@@ -56,10 +56,14 @@ class Crawler(object):
 
     def craw(self, group_id):
         # Step 1: craw artist
-        stop_count = 1732
+        group_id = 1002
+        artist_count = 5
 
         artists = self.craw_artist(group_id)
         for artist in artists: # 100 artiststs
+            artist_count -= 1
+            if artist_count > 0:
+                continue
             artist_id = artist['href'].replace('/artist?id=', '').strip()
             artist_name = artist['title'].replace(u'的音乐', '')
             print 'artist info: ', artist_id, artist_name
@@ -68,9 +72,7 @@ class Crawler(object):
             hot_musics = self.craw_hot_musics(artist_id)
             print hot_musics
             for musics in hot_musics:
-                stop_count -= 1
-                if stop_count > 0:
-                    continue
+
                 # music id
                 print str(musics)
                 music_short_str = musics.find_all('a')
